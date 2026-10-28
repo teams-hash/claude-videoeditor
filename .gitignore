@@ -1,0 +1,126 @@
+# Git holds the studio's code, skills, configs, docs and small JSON plans. Media, environments, downloads and
+# anything the setup script rebuilds stay out. Exceptions (licensed for redistribution) are at the bottom.
+
+# ---- Footage, deliverables, scratch: personal or client media, never committed
+/RAW FOOTAGES/
+/REFERENCES/
+/EXPORTS/
+/_scratch/
+/_backups/
+/projects/
+
+# ---- Video, audio, images
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m4v
+*.mxf
+*.braw
+*.r3d
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.aif
+*.aiff
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.psd
+*.exr
+
+# ---- Fonts, models, binaries, archives (downloaded or rebuilt by tools/setup/setup.mjs)
+*.woff
+*.woff2
+*.ttf
+*.otf
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.dmg
+*.msi
+*.pkg
+/tools/bin/
+/tools/models/
+/tools/rvm/models/
+/tools/rvm/bench/
+/SFX/*
+!/SFX/_downloads/
+/SFX/_downloads/*
+!/SFX/_downloads/kenney_interface-sounds/
+!/SFX/_downloads/kenney_ui-audio/
+
+# ---- Environments and caches
+node_modules/
+**/venv/
+.venv/
+__pycache__/
+*.pyc
+.hyperframes/
+.cache/
+/pip/
+*.log
+**/.*.hf-transaction-*/
+**/compositions/lib/
+
+# ---- Generated libraries (rebuilt by setup: fonts, LUTs, synth sounds)
+LIBRARY/fonts/_src/node_modules/
+LIBRARY/grades/cube/
+LIBRARY/references/*/frames/
+LIBRARY/sfx/sonniss-gdc-2026/
+
+# ---- Heavy per-project intermediates
+projects/*/frames/
+projects/*/work/chk/
+projects/*/work/proxy*/
+projects/*/work/*/proxy*/
+projects/*/work/*/plate/
+projects/*/work/superseded/
+projects/*/work/*/superseded/
+projects/*/work/dl/
+
+# ---- Personal settings, secrets, OS and editor files
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ---- Exceptions: small assets whose licences allow redistribution
+# Kenney UI sounds (CC0, 1.4 MB): the site's download links expire, so they ship with the repo.
+!/SFX/_downloads/kenney_interface-sounds/**/*.ogg
+!/SFX/_downloads/kenney_ui-audio/**/*.ogg
+# Fonts of the Brand Nat style guide page (SIL OFL 1.1, licence in the same folder).
+!.claude/skills/brand-nat-styles/guide/fonts/*.woff2

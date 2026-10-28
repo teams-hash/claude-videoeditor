@@ -1,0 +1,117 @@
+<!doctype html>
+<!--
+  house-track-callout: studio house component (tracking / callouts)
+
+  A ring or box that follows an object through footage, with a label on a leader line. The path comes from
+  `studio track <video> --box x,y,w,h --start s --end e`, whose samples are 0-1 fractions of the frame; pass them
+  (re-timed to the mount start) as the track variable. One GSAP keyframe per sample, ease none, so the callout sits
+  on the object every frame. The ring draws on in 6 frames; the label pops 3 frames later.
+
+  Variables:
+    - track (string): JSON array [{"t","x","y","w","h"}] in seconds from the mount start (lost samples: "ok": false).
+    - label (string), shape (ring | box), side (auto | left | right; auto keeps the label in frame: beside the shape, or below it),
+      accent (color), pad (number, % of box, default 18).
+
+  Mount: data-composition-id="house-track-callout" data-composition-src="compositions/components/house-track-callout/house-track-callout.html"
+         style="position:absolute;inset:0" over the footage it tracks (same frame size as the tracked video).
+-->
+<html
+  lang="en"
+  data-composition-id="house-track-callout"
+  data-composition-duration="4"
+  data-composition-variables='[
+    { "id": "track", "type": "string", "role": "content", "label": "Track (JSON)", "default": "[{\"t\":0,\"x\":0.3,\"y\":0.4,\"w\":0.2,\"h\":0.1},{\"t\":2,\"x\":0.5,\"y\":0.45,\"w\":0.2,\"h\":0.1},{\"t\":4,\"x\":0.55,\"y\":0.35,\"w\":0.2,\"h\":0.1}]" },
+    { "id": "label", "type": "string", "role": "content", "label": "Label", "default": "This one" },
+    { "id": "shape", "type": "enum", "role": "style", "label": "Shape", "default": "ring", "options": [{ "value": "ring", "label": "Ring" }, { "value": "box", "label": "Box" }] },
+    { "id": "side", "type": "enum", "role": "style", "label": "Label side", "default": "auto", "options": [{ "value": "auto", "label": "Auto" }, { "value": "right", "label": "Right" }, { "value": "left", "label": "Left" }] },
+    { "id": "pad", "type": "number", "role": "style", "label": "Padding (%)", "default": 18 },
+    { "id": "accent", "type": "color", "role": "style", "label": "Accent", "default": "" }
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <title>House track callout</title>
+  </head>
+  <body>
+    <template>
+      <div id="root" data-composition-id="house-track-callout" data-duration="4" data-fps="30">
+        <style>
+          #root { position: absolute; inset: 0; overflow: hidden; container-type: size; pointer-events: none; }
+          .tc-clip { position: absolute; inset: 0; }
+          .tc-follow { position: absolute; left: 0; top: 0; width: 0; height: 0; }
+          .tc-shape { position: absolute; border: max(4px, 0.55cqw) solid currentColor; box-shadow: 0 0 0 max(2px, 0.25cqw) rgba(0,0,0,.25); }
+          .tc-ring { border-radius: 50%; }
+          .tc-box { border-radius: 1.4cqw; }
+          .tc-label { position: absolute; left: 0; top: 50%; white-space: nowrap; padding: 0.9cqh 2.2cqw; border-radius: 1.6cqw; font-family: var(--h-font-text, Inter, system-ui, sans-serif); font-weight: 700; font-size: 3.4cqw; color: #14161A; }
+        </style>
+        <div id="house-track-callout-clip" class="tc-clip clip" data-start="0" data-duration="4" data-track-index="0">
+          <div class="tc-follow"><div class="tc-shape"></div><div class="tc-label"></div></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+        <script>
+          (function () {
+            "use strict";
+            var root = document.getElementById("root");
+            var follow = root.querySelector(".tc-follow"), shape = root.querySelector(".tc-shape"), label = root.querySelector(".tc-label");
+            var v = window.__hyperframes && window.__hyperframes.getVariables ? window.__hyperframes.getVariables() : {};
+            var samples = [];
+            try { samples = JSON.parse(v.track || "[]").filter(function (s) { return s.ok !== false; }); } catch (e) { samples = []; }
+            var css = getComputedStyle(document.documentElement);
+            var accent = v.accent || css.getPropertyValue("--h-accent").trim() || "#C5A759";
+            var pad = (Number.isFinite(Number(v.pad)) ? Number(v.pad) : 18) / 100;
+            shape.classList.add(v.shape === "box" ? "tc-box" : "tc-ring");
+            shape.style.color = accent;
+            label.style.background = accent;
+            label.textContent = v.label == null ? "This one" : String(v.label);
+            var F = 1 / 30;
+            var tl = gsap.timeline({ paused: true });
+            if (samples.length) {
+              // Size the shape from the median box so it doesn't breathe with tracker noise; the centre follows each sample.
+              var ws = samples.map(function (s) { return s.w; }).sort(), hs = samples.map(function (s) { return s.h; }).sort();
+              var W = ws[Math.floor(ws.length / 2)] * (1 + 2 * pad) * 100, H = hs[Math.floor(hs.length / 2)] * (1 + 2 * pad) * 100;
+              // A ring stays circular on any frame shape: one diameter in mixed units via CSS max().
+              var sw = v.shape === "box" ? W + "cqw" : "max(" + W + "cqw, " + H + "cqh)", sh = v.shape === "box" ? H + "cqh" : sw;
+              shape.style.width = sw; shape.style.height = sh;
+              shape.style.left = "calc(" + sw + " / -2)"; shape.style.top = "calc(" + sh + " / -2)";
+              // Label placement keeps it inside the frame: right or left of the shape when there is room (8cqw margin),
+              // otherwise centred below it and clamped to the frame. Width is estimated from the text (the DOM is not
+              // measured at mount). Placement changes glide in 6 frames; a clamped label follows the object smoothly.
+              var labW = Math.min(90, label.textContent.length * 3.4 * 0.56 + 4.4);
+              var offR = W / 2 + 2, offL = -(W / 2 + 2 + labW), below = H / 2 + 3;
+              var fits = function (c, off) { return c + off >= 2 && c + off + labW <= 92; };
+              var place = function (c, prev) {
+                var forced = v.side === "left" || v.side === "right" ? v.side : null;
+                var mode = forced || (prev && prev !== "below" && fits(c, prev === "left" ? offL : offR) ? prev
+                  : fits(c, offR) ? "right" : fits(c, offL) ? "left" : "below");
+                if (mode === "right") return { mode: mode, x: offR, y: 0, yp: -50 };
+                if (mode === "left") return { mode: mode, x: offL, y: 0, yp: -50 };
+                return { mode: mode, x: Math.min(98 - c - labW, Math.max(2 - c, -labW / 2)), y: below, yp: 0 };
+              };
+              var cxn = function (s) { return (s.x + s.w / 2) * 100; };
+              var cx = function (s) { return cxn(s) + "cqw"; }, cy = function (s) { return (s.y + s.h / 2) * 100 + "cqh"; };
+              var at = place(cxn(samples[0]), null);
+              tl.set(follow, { x: cx(samples[0]), y: cy(samples[0]) }, 0);
+              tl.set(label, { x: at.x + "cqw", y: at.y + "cqh", yPercent: at.yp }, 0);
+              for (var i = 1; i < samples.length; i++) {
+                var dt = Math.max(F / 4, samples[i].t - samples[i - 1].t);
+                tl.to(follow, { x: cx(samples[i]), y: cy(samples[i]), duration: dt, ease: "none" }, samples[i - 1].t);
+                var nx = place(cxn(samples[i]), at.mode);
+                if (nx.mode !== at.mode) tl.to(label, { x: nx.x + "cqw", y: nx.y + "cqh", yPercent: nx.yp, duration: 6 * F, ease: "power2.inOut" }, samples[i - 1].t);
+                else if (Math.abs(nx.x - at.x) > 0.3) tl.to(label, { x: nx.x + "cqw", duration: dt, ease: "none" }, samples[i - 1].t);
+                at = nx;
+              }
+              var t0 = samples[0].t;
+              tl.fromTo(shape, { scale: 1.25, opacity: 0 }, { scale: 1, opacity: 1, duration: 6 * F, ease: "expo.out" }, t0);
+              tl.fromTo(label, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 6 * F, ease: "back.out(1.6)" }, t0 + 3 * F);
+              var tEnd = samples[samples.length - 1].t;
+              tl.to([shape, label], { opacity: 0, duration: 4 * F, ease: "power3.in" }, Math.max(t0 + 0.5, tEnd - 4 * F));
+            }
+            tl.seek(0);
+            window.__timelines = window.__timelines || {};
+            window.__timelines["house-track-callout"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

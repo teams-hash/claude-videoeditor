@@ -1,0 +1,22 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Installer scripts parse
+        run: bash -n install.sh
+      - name: Repository checks
+        run: node tools/ci/lint.mjs
+      - name: Version bumped for shared changes
+        if: github.event_name == 'pull_request'
+        run: node tools/ci/lint.mjs --base origin/${{ github.base_ref }}

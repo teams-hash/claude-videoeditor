@@ -1,0 +1,93 @@
+<!doctype html>
+<!--
+  house-giant-word: studio house component (editorial proof, house format B)
+
+  One giant word or short phrase in the display or accent face, with an optional brand-colour ground behind it.
+  Mount it UNDER the person's cut-out (lower z-index than the cut-out layer) for text behind the subject, or over
+  footage on its own. Only the giant word goes behind the subject; readable lines stay in front.
+
+  Variables:
+    - text (string), face (sans | serif-italic), size (number, cqw, default 30), y (number, % of height, default 24).
+    - color (color): word colour (default the house accent for serif-italic, ink for sans).
+    - ground (color, optional): full-frame brand colour under the word (house: swap the background under giant words).
+    - entrance (slam | rise | letters | blur, default slam): slam = scale 1.3 -> 1 in 3 frames (pair with an impact),
+      rise = mask rise 8 frames, letters = 2 frames per letter, blur = 8 px -> 0 in 6 frames.
+
+  Mount: data-composition-id="house-giant-word" data-composition-src="compositions/components/house-giant-word/house-giant-word.html"
+         style="position:absolute;inset:0" data-track-index below the cut-out layer.
+-->
+<html
+  lang="en"
+  data-composition-id="house-giant-word"
+  data-composition-duration="3"
+  data-composition-variables='[
+    { "id": "text", "type": "string", "role": "content", "label": "Text", "default": "DEAD." },
+    { "id": "face", "type": "enum", "role": "style", "label": "Face", "default": "serif-italic", "options": [{ "value": "sans", "label": "Display sans" }, { "value": "serif-italic", "label": "Accent serif italic" }] },
+    { "id": "size", "type": "number", "role": "style", "label": "Size (cqw)", "default": 30, "min": 8, "max": 60 },
+    { "id": "y", "type": "number", "role": "style", "label": "Centre y (%)", "default": 24, "min": 5, "max": 95 },
+    { "id": "color", "type": "color", "role": "style", "label": "Colour", "default": "" },
+    { "id": "ground", "type": "color", "role": "style", "label": "Ground", "default": "" },
+    { "id": "entrance", "type": "enum", "role": "motion", "label": "Entrance", "default": "slam", "options": [{ "value": "slam", "label": "Slam" }, { "value": "rise", "label": "Mask rise" }, { "value": "letters", "label": "Letters" }, { "value": "blur", "label": "Blur in" }] }
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <title>House giant word</title>
+  </head>
+  <body>
+    <template>
+      <div id="root" data-composition-id="house-giant-word" data-duration="3" data-fps="30">
+        <style>
+          #root { position: absolute; inset: 0; overflow: hidden; container-type: size; pointer-events: none; }
+          .gw-clip { position: absolute; inset: 0; }
+          .gw-ground { position: absolute; inset: 0; opacity: 0; }
+          .gw-line { position: absolute; left: 0; right: 0; transform: translateY(-50%); text-align: center; overflow: hidden; padding: 2cqh 0; }
+          .gw-word { display: inline-block; white-space: nowrap; line-height: 0.9; will-change: transform, opacity; }
+          .gw-sans { font-family: var(--h-font-display, Inter, system-ui, sans-serif); font-weight: 900; letter-spacing: -0.04em; }
+          .gw-serif { font-family: var(--h-font-accent, 'Playfair Display', Georgia, serif); font-style: italic; font-weight: 400; letter-spacing: -0.02em; }
+          .gw-ch { display: inline-block; }
+        </style>
+        <div id="house-giant-word-clip" class="gw-clip clip" data-start="0" data-duration="3" data-track-index="0">
+          <div class="gw-ground"></div>
+          <div class="gw-line"><span class="gw-word"></span></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+        <script>
+          (function () {
+            "use strict";
+            var root = document.getElementById("root");
+            var ground = root.querySelector(".gw-ground"), line = root.querySelector(".gw-line"), word = root.querySelector(".gw-word");
+            var v = window.__hyperframes && window.__hyperframes.getVariables ? window.__hyperframes.getVariables() : {};
+            var n = function (x, d) { x = Number(x); return Number.isFinite(x) ? x : d; };
+            var text = v.text == null ? "DEAD." : String(v.text);
+            var serif = (v.face || "serif-italic") !== "sans";
+            var css = getComputedStyle(document.documentElement);
+            var color = v.color || (serif ? css.getPropertyValue("--h-accent").trim() || "#C5A759" : css.getPropertyValue("--h-ink").trim() || "#F5F3EE");
+            word.classList.add(serif ? "gw-serif" : "gw-sans");
+            word.style.fontSize = n(v.size, 30) + "cqw";
+            word.style.color = color;
+            line.style.top = n(v.y, 24) + "cqh";
+            if (v.ground) { ground.style.background = v.ground; } else { ground.style.display = "none"; }
+            var entrance = v.entrance || "slam";
+            var chars = [];
+            if (entrance === "letters") {
+              Array.from(text).forEach(function (c) { var s = document.createElement("span"); s.className = "gw-ch"; s.textContent = c === " " ? " " : c; word.appendChild(s); chars.push(s); });
+            } else word.textContent = text;
+
+            var F = 1 / 30, D = Math.max(0.5, parseFloat(root.dataset.duration || "3"));
+            var tl = gsap.timeline({ paused: true });
+            if (v.ground) tl.fromTo(ground, { opacity: 0 }, { opacity: 1, duration: 2 * F, ease: "none" }, 0);
+            if (entrance === "rise") tl.fromTo(word, { yPercent: 110 }, { yPercent: 0, duration: 8 * F, ease: "power3.out" }, 0);
+            else if (entrance === "letters") chars.forEach(function (s, i) { tl.fromTo(s, { opacity: 0.25 }, { opacity: 1, duration: F, ease: "none" }, i * 2 * F); });
+            else if (entrance === "blur") tl.fromTo(word, { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 6 * F, ease: "power2.out" }, 0);
+            else tl.fromTo(word, { opacity: 0, scale: 1.3 }, { opacity: 1, scale: 1, duration: 3 * F, ease: "power3.out" }, 0);
+            tl.to(line, { opacity: 0, duration: 3 * F, ease: "power3.in" }, Math.max(0.4, D - 3 * F));
+            tl.seek(0);
+            window.__timelines = window.__timelines || {};
+            window.__timelines["house-giant-word"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

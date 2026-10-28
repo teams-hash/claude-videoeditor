@@ -1,0 +1,5591 @@
+{
+ "built": "2026-10-28T07:15:57.250Z",
+ "count": 309,
+ "counts": {
+  "sonniss": 130,
+  "kenney": 151,
+  "bundled": 19,
+  "synth": 9
+ },
+ "entries": [
+  {
+   "id": "sonniss/aerojet-blast-off-clean-344-audio-air-designed",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Air Designed/AEROJet_Blast Off Clean_344 Audio_Air Designed.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "air",
+    "designed",
+    "aerojet",
+    "blast",
+    "off",
+    "clean"
+   ],
+   "dur": 8.736,
+   "hit": 8.435,
+   "onset": 0.4,
+   "peak_db": -3.6,
+   "rms_db": -20.4
+  },
+  {
+   "id": "sonniss/voxmale-boxer-level-up-1-344-audio-anime-fight-v",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Anime Fight Voices Vol. 1/VOXMale_Boxer Level Up 1_344 Audio_Anime Fight Voices.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "anime",
+    "fight",
+    "voices",
+    "voxmale",
+    "boxer",
+    "level"
+   ],
+   "dur": 5.2,
+   "hit": 5.035,
+   "onset": 0.095,
+   "peak_db": -2.4,
+   "rms_db": -17.5
+  },
+  {
+   "id": "sonniss/voxmale-male-adventurer-active-yell-19-344-audio",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Anime Fight Voices Vol. 1/VOXMale_Male Adventurer, Active Yell 19_344 Audio_Anime Fight Voices.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "anime",
+    "fight",
+    "voices",
+    "voxmale",
+    "male",
+    "adventurer",
+    "active",
+    "yell"
+   ],
+   "dur": 0.444,
+   "hit": 0.217,
+   "onset": 0.065,
+   "peak_db": -3.6,
+   "rms_db": -17.1
+  },
+  {
+   "id": "sonniss/voxmale-warrior-opponent-attack-ai-yah-2-344-aud",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Anime Fight Voices Vol. 1/VOXMale_Warrior Opponent Attack, 'Ai yah' 2_344 Audio_Anime Fight Voices.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "anime",
+    "fight",
+    "voices",
+    "voxmale",
+    "warrior",
+    "opponent",
+    "attack",
+    "yah"
+   ],
+   "dur": 0.919,
+   "hit": 0.572,
+   "onset": 0.03,
+   "peak_db": 2.2,
+   "rms_db": -13.8
+  },
+  {
+   "id": "sonniss/voxfem-anime-adult-warrior-breaths-40-344-audio-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Anime Fight Voices Vol. 2/VOXFem_Anime, Adult Warrior Breaths 40_344 Audio_Anime Fight Voices Vol 2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "anime",
+    "fight",
+    "voices",
+    "voxfem",
+    "adult",
+    "warrior",
+    "breaths"
+   ],
+   "dur": 0.913,
+   "hit": 0.075,
+   "onset": 0.025,
+   "peak_db": -12.1,
+   "rms_db": -30.2
+  },
+  {
+   "id": "sonniss/voxfem-anime-schoolgirl-fight-exhale-15-344-audi",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Anime Fight Voices Vol. 2/VOXFem_Anime, Schoolgirl Fight Exhale 15_344 Audio_Anime Fight Voices Vol 2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "anime",
+    "fight",
+    "voices",
+    "voxfem",
+    "schoolgirl",
+    "exhale"
+   ],
+   "dur": 0.665,
+   "hit": 0.102,
+   "onset": 0.08,
+   "peak_db": -4.6,
+   "rms_db": -17.9
+  },
+  {
+   "id": "sonniss/voxfem-anime-warrior-elf-princess-aggressive-yel",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Anime Fight Voices Vol. 2/VOXFem_Anime, Warrior Elf Princess Aggressive Yell_344 Audio_Anime Fight Voices Vol 2_14.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "anime",
+    "fight",
+    "voices",
+    "voxfem",
+    "warrior",
+    "elf",
+    "princess",
+    "aggressive",
+    "yell"
+   ],
+   "dur": 1.6,
+   "hit": 1.028,
+   "onset": 0.07,
+   "peak_db": -0.1,
+   "rms_db": -13.3
+  },
+  {
+   "id": "sonniss/paprmisc-antique-books-flicking-through-pages-11",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Books/PAPRMisc_Antique Books Flicking Through Pages 11_344 Audio_Antiques - Books.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "antique",
+    "books",
+    "paprmisc",
+    "flicking",
+    "through",
+    "pages",
+    "antiques"
+   ],
+   "dur": 1.878,
+   "hit": 0.611,
+   "onset": 0.24,
+   "peak_db": -15.1,
+   "rms_db": -37.4
+  },
+  {
+   "id": "sonniss/paprmisc-antique-books-slow-page-turns-6-344-aud",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Books/PAPRMisc_Antique Books Slow Page Turns 6_344 Audio_Antiques - Books.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "antique",
+    "books",
+    "paprmisc",
+    "slow",
+    "page",
+    "turns",
+    "antiques"
+   ],
+   "dur": 13.75,
+   "hit": 0.804,
+   "onset": 0.195,
+   "peak_db": -20.5,
+   "rms_db": -46.3
+  },
+  {
+   "id": "sonniss/paprmisc-pile-of-antique-books-falling-over-8-34",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Books/PAPRMisc_Pile Of Antique Books Falling Over 8_344 Audio_Antiques - Books.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "antique",
+    "books",
+    "paprmisc",
+    "pile",
+    "falling",
+    "over",
+    "antiques"
+   ],
+   "dur": 2.796,
+   "hit": 0.92,
+   "onset": 0.885,
+   "peak_db": -0.6,
+   "rms_db": -17.5
+  },
+  {
+   "id": "sonniss/comtelph-antique-telephone-ear-piece-falling-dow",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Telephone/COMTelph_Antique Telephone Ear Piece Falling Down_344 Audio_Antiques - Telephone_03.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "antique",
+    "telephone",
+    "comtelph",
+    "ear",
+    "piece",
+    "falling",
+    "down",
+    "antiques"
+   ],
+   "dur": 1.255,
+   "hit": 0.452,
+   "onset": 0.125,
+   "peak_db": -14,
+   "rms_db": -31.9
+  },
+  {
+   "id": "sonniss/comtelph-antique-telephone-pick-up-drop-ear-piec",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Telephone/COMTelph_Antique Telephone Pick Up & Drop Ear Piece_344 Audio_Antiques - Telephone_05.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "antique",
+    "telephone",
+    "comtelph",
+    "pick",
+    "drop",
+    "ear",
+    "piece",
+    "antiques"
+   ],
+   "dur": 3.217,
+   "hit": 2.494,
+   "onset": 0.03,
+   "peak_db": -4.8,
+   "rms_db": -26.9
+  },
+  {
+   "id": "sonniss/comtelph-antique-telephone-rotary-dial-number-9-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Telephone/COMTelph_Antique Telephone Rotary Dial Number  9_344 Audio_Antiques - Telephone.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "antique",
+    "telephone",
+    "comtelph",
+    "rotary",
+    "dial",
+    "number",
+    "antiques"
+   ],
+   "dur": 2.447,
+   "hit": 1.245,
+   "onset": 0.05,
+   "peak_db": -13.4,
+   "rms_db": -31.5
+  },
+  {
+   "id": "sonniss/comtype-typewriter-carriage-movement-typewriter-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Typewriter/COMType_Typewriter Carriage Movement, Typewriter_344 Audio_Antiques - Typewriter_01.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "typing",
+   "tags": [
+    "antique",
+    "typewriter",
+    "comtype",
+    "carriage",
+    "movement",
+    "antiques"
+   ],
+   "dur": 4.189,
+   "hit": 0.296,
+   "onset": 0.295,
+   "peak_db": -5.6,
+   "rms_db": -28.5
+  },
+  {
+   "id": "sonniss/comtype-typewriter-paper-movements-typewriter-04",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Typewriter/COMType_Typewriter Paper Movements, Typewriter 04_344 Audio_Antiques - Typewriter.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "typing",
+   "tags": [
+    "antique",
+    "typewriter",
+    "comtype",
+    "paper",
+    "movements",
+    "antiques"
+   ],
+   "dur": 3.541,
+   "hit": 1.922,
+   "onset": 0.59,
+   "peak_db": -23,
+   "rms_db": -46.5
+  },
+  {
+   "id": "sonniss/comtype-typewriter-space-key-typewriter-05-344-a",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Antique Typewriter/COMType_Typewriter Space Key, Typewriter 05_344 Audio_Antiques - Typewriter.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "typing",
+   "tags": [
+    "antique",
+    "typewriter",
+    "comtype",
+    "space",
+    "key",
+    "antiques"
+   ],
+   "dur": 0.538,
+   "hit": 0.136,
+   "onset": 0.025,
+   "peak_db": -5.2,
+   "rms_db": -27.2
+  },
+  {
+   "id": "sonniss/dsgnbass-bass-drop-downer-fast-16-344-audio-bass",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 1/DSGNBass_Bass Drop & Downer Fast 16_344 Audio_Bass Drops & Downers.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "drop",
+    "downer",
+    "fast"
+   ],
+   "dur": 2.125,
+   "hit": 1.34,
+   "onset": 0.09,
+   "peak_db": -2.1,
+   "rms_db": -8
+  },
+  {
+   "id": "sonniss/dsgnbass-bass-drop-downer-medium-04-344-audio-ba",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 1/DSGNBass_Bass Drop & Downer Medium 04_344 Audio_Bass Drops & Downers.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "drop",
+    "downer",
+    "medium"
+   ],
+   "dur": 4.487,
+   "hit": 2.297,
+   "onset": 0,
+   "peak_db": -1.6,
+   "rms_db": -11.9
+  },
+  {
+   "id": "sonniss/dsgnbass-bass-drop-downer-slow-10-344-audio-bass",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 1/DSGNBass_Bass Drop & Downer Slow 10_344 Audio_Bass Drops & Downers.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "drop",
+    "downer",
+    "slow"
+   ],
+   "dur": 7.962,
+   "hit": 1.629,
+   "onset": 0,
+   "peak_db": 1.3,
+   "rms_db": -7.9
+  },
+  {
+   "id": "sonniss/dsgnbass-bass-drop-downer-fast-12-344-audio-bass",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 2/DSGNBass_Bass Drop & Downer Fast 12_344 Audio_Bass Drops & Downers Vol 2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "drop",
+    "downer",
+    "fast"
+   ],
+   "dur": 2.637,
+   "hit": 0.013,
+   "onset": 0,
+   "peak_db": 1.9,
+   "rms_db": -17.4
+  },
+  {
+   "id": "sonniss/dsgnbass-bass-drop-downer-medium-15-344-audio-ba",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 2/DSGNBass_Bass Drop & Downer Medium 15_344 Audio_Bass Drops & Downers Vol 2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "drop",
+    "downer",
+    "medium"
+   ],
+   "dur": 3.537,
+   "hit": 0.025,
+   "onset": 0,
+   "peak_db": 0,
+   "rms_db": -18.6
+  },
+  {
+   "id": "sonniss/dsgnbass-bass-drop-downer-slow-07-344-audio-bass",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 2/DSGNBass_Bass Drop & Downer Slow 07_344 Audio_Bass Drops & Downers Vol 2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "drop",
+    "downer",
+    "slow"
+   ],
+   "dur": 4.538,
+   "hit": 0.033,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -19.4
+  },
+  {
+   "id": "sonniss/dsgnbass-jump-start-drop-3-344-audio-bass-drops-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 3/DSGNBass_Jump Start Drop 3_344 Audio_Bass Drops and Downers Vol 3.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "jump",
+    "start",
+    "drop"
+   ],
+   "dur": 3.702,
+   "hit": 0.138,
+   "onset": 0.055,
+   "peak_db": 0.2,
+   "rms_db": -9.4
+  },
+  {
+   "id": "sonniss/dsgnbass-rattling-downer-3-344-audio-bass-drops-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 3/DSGNBass_Rattling Downer 3_344 Audio_Bass Drops and Downers Vol 3.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "rattling",
+    "downer"
+   ],
+   "dur": 5.59,
+   "hit": 3.052,
+   "onset": 0.115,
+   "peak_db": -0.4,
+   "rms_db": -9.2
+  },
+  {
+   "id": "sonniss/dsgnbass-tone-downer-reverb-344-audio-bass-drops",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Bass Drops & Downers Vol. 3/DSGNBass_Tone Downer (Reverb)_344 Audio_Bass Drops and Downers Vol 3.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "drop",
+   "tags": [
+    "bass",
+    "drops",
+    "downers",
+    "dsgnbass",
+    "tone",
+    "downer",
+    "reverb"
+   ],
+   "dur": 5.845,
+   "hit": 1.295,
+   "onset": 0.1,
+   "peak_db": 0.3,
+   "rms_db": -10.9
+  },
+  {
+   "id": "sonniss/gamecas-automatic-shuffler-shuffling-1-344-audio",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Casino Cards Vol. 1/GAMECas_Automatic Shuffler, Shuffling 1_344 Audio_Casino Cards Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "casino",
+    "cards",
+    "gamecas",
+    "automatic",
+    "shuffler",
+    "shuffling"
+   ],
+   "dur": 5.172,
+   "hit": 3.556,
+   "onset": 0.255,
+   "peak_db": -0.5,
+   "rms_db": -26.4
+  },
+  {
+   "id": "sonniss/gamecas-dealing-3-344-audio-casino-cards-vol-1",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Casino Cards Vol. 1/GAMECas_Dealing 3_344 Audio_Casino Cards Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "casino",
+    "cards",
+    "gamecas",
+    "dealing"
+   ],
+   "dur": 6.965,
+   "hit": 0.816,
+   "onset": 0.115,
+   "peak_db": -33.3,
+   "rms_db": -59.6
+  },
+  {
+   "id": "sonniss/gamecas-pick-up-multiple-cards-at-once-5-344-aud",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Casino Cards Vol. 1/GAMECas_Pick Up Multiple Cards At Once 5_344 Audio_Casino Cards Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "casino",
+    "cards",
+    "gamecas",
+    "pick",
+    "multiple",
+    "once"
+   ],
+   "dur": 0.375,
+   "hit": 0.248,
+   "onset": 0.08,
+   "peak_db": -38,
+   "rms_db": -52.7
+  },
+  {
+   "id": "sonniss/folyprop-sitting-down-creaky-seat-squeaks-3-344-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Cinema Experience Vol. 1/FOLYProp_Sitting Down, Creaky Seat, Squeaks 3_344 Audio_CInema Experience.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "creature",
+   "tags": [
+    "cinema",
+    "experience",
+    "folyprop",
+    "sitting",
+    "down",
+    "creaky",
+    "seat",
+    "squeaks"
+   ],
+   "dur": 4.471,
+   "hit": 3.118,
+   "onset": 0.23,
+   "peak_db": -18.2,
+   "rms_db": -41.8
+  },
+  {
+   "id": "sonniss/foodmisc-broom-sweeping-up-snacks-on-hard-floor-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Cinema Experience Vol. 1/FOODMisc_Broom Sweeping Up Snacks On Hard Floor 2_344 Audio_CInema Experience.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "cinema",
+    "experience",
+    "foodmisc",
+    "broom",
+    "sweeping",
+    "snacks",
+    "hard",
+    "floor"
+   ],
+   "dur": 5.963,
+   "hit": 1.306,
+   "onset": 0.315,
+   "peak_db": -12.4,
+   "rms_db": -41.7
+  },
+  {
+   "id": "sonniss/voxreac-spectator-female-various-questions-344-a",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Cinema Experience Vol. 1/VOXReac_Spectator, Female, Various Questions_344 Audio_Cinema Experience.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "cinema",
+    "experience",
+    "voxreac",
+    "spectator",
+    "female",
+    "various",
+    "questions"
+   ],
+   "dur": 17.949,
+   "hit": 16.356,
+   "onset": 2.23,
+   "peak_db": -27.5,
+   "rms_db": -48.4
+  },
+  {
+   "id": "sonniss/fghtgrab-choking-tension-03-344-audio-cinematic-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Cinematic Fight Vol. 1/FGHTGrab_Choking, Tension 03_344 Audio_Cinematic Fight Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "riser",
+   "tags": [
+    "cinematic",
+    "fight",
+    "fghtgrab",
+    "choking",
+    "tension"
+   ],
+   "dur": 8.873,
+   "hit": 0.121,
+   "onset": 0.105,
+   "peak_db": 1.4,
+   "rms_db": -25.9
+  },
+  {
+   "id": "sonniss/fghtimpt-4-x-punch-body-02-344-audio-cinematic-f",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Cinematic Fight Vol. 1/FGHTImpt_4 x Punch, Body 02_344 Audio_Cinematic Fight Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "fight",
+    "fghtimpt",
+    "punch",
+    "body"
+   ],
+   "dur": 3.913,
+   "hit": 0.315,
+   "onset": 0.19,
+   "peak_db": 2,
+   "rms_db": -10.8
+  },
+  {
+   "id": "sonniss/metlmisc-metal-slow-whoosh-rattle-pass-by-x4-01-",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Elemental Palette Designed Vol. 1/METLMisc_Metal, Slow Whoosh, Rattle, Pass By x4 01_344 Audio_Elemental Palette Designed Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "elemental",
+    "palette",
+    "designed",
+    "metlmisc",
+    "metal",
+    "slow",
+    "whoosh",
+    "rattle",
+    "pass"
+   ],
+   "dur": 1.214,
+   "hit": 0.5,
+   "onset": 0.185,
+   "peak_db": 0.7,
+   "rms_db": -23.1
+  },
+  {
+   "id": "sonniss/watrmisc-water-liquid-impact-bubble-sci-fi-hit-0",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Elemental Palette Designed Vol. 1/WATRMisc_Water, Liquid Impact, Bubble, Sci Fi, Hit 04_344 Audio_Elemental Palette Designed Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "elemental",
+    "palette",
+    "designed",
+    "watrmisc",
+    "water",
+    "liquid",
+    "impact",
+    "bubble",
+    "sci",
+    "hit"
+   ],
+   "dur": 1.213,
+   "hit": 0.253,
+   "onset": 0.145,
+   "peak_db": -3.2,
+   "rms_db": -15.4
+  },
+  {
+   "id": "sonniss/winddsgn-wind-rush-whoosh-long-x5-01-344-audio-e",
+   "path": "SFX/sonniss_gdc2026/344 Audio - Elemental Palette Designed Vol. 1/WINDDsgn_Wind, Rush, Whoosh, Long x5 01_344 Audio_Elemental Palette Designed Vol 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "elemental",
+    "palette",
+    "designed",
+    "winddsgn",
+    "wind",
+    "rush",
+    "whoosh",
+    "long"
+   ],
+   "dur": 1.049,
+   "hit": 0.095,
+   "onset": 0.06,
+   "peak_db": -13.5,
+   "rms_db": -29.1
+  },
+  {
+   "id": "sonniss/ice-block-of-ice-crushed-heavy-015",
+   "path": "SFX/sonniss_gdc2026/Alexander Kopeikin - 100 kHz Designed Ice/ice, block of ice crushed, heavy-015.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "alexander",
+    "kopeikin",
+    "khz",
+    "designed",
+    "ice",
+    "block",
+    "crushed",
+    "heavy"
+   ],
+   "dur": 2.836,
+   "hit": 1.393,
+   "onset": 0.25,
+   "peak_db": 1.1,
+   "rms_db": -15.2
+  },
+  {
+   "id": "sonniss/ice-crack-ice-block-snapping-001",
+   "path": "SFX/sonniss_gdc2026/Alexander Kopeikin - 100 kHz Designed Ice/ice, crack, ice block snapping-001.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "alexander",
+    "kopeikin",
+    "khz",
+    "designed",
+    "ice",
+    "crack",
+    "block",
+    "snapping"
+   ],
+   "dur": 5.94,
+   "hit": 0.636,
+   "onset": 0.53,
+   "peak_db": 1.9,
+   "rms_db": -12
+  },
+  {
+   "id": "sonniss/ice-surface-cracking-fissure-fast-hard-003",
+   "path": "SFX/sonniss_gdc2026/Alexander Kopeikin - 100 kHz Designed Ice/ice, surface cracking, fissure, fast, hard-003.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "alexander",
+    "kopeikin",
+    "khz",
+    "designed",
+    "ice",
+    "surface",
+    "cracking",
+    "fissure",
+    "fast",
+    "hard"
+   ],
+   "dur": 5.034,
+   "hit": 0.771,
+   "onset": 0.32,
+   "peak_db": 3.5,
+   "rms_db": -10.4
+  },
+  {
+   "id": "sonniss/magic-action-gesture-evil-presence-onslaught-004",
+   "path": "SFX/sonniss_gdc2026/Alexander Kopeikin - Emotion and Magic/magic, action gesture, evil presence, onslaught-004.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "alexander",
+    "kopeikin",
+    "emotion",
+    "magic",
+    "action",
+    "gesture",
+    "evil",
+    "presence",
+    "onslaught"
+   ],
+   "dur": 38.215,
+   "hit": 31.194,
+   "onset": 1.62,
+   "peak_db": 0.6,
+   "rms_db": -13.4
+  },
+  {
+   "id": "sonniss/magic-drone-tension-spellbound-evanescence-002",
+   "path": "SFX/sonniss_gdc2026/Alexander Kopeikin - Emotion and Magic/magic, drone, tension, spellbound, evanescence-002.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "riser",
+   "tags": [
+    "alexander",
+    "kopeikin",
+    "emotion",
+    "magic",
+    "drone",
+    "tension",
+    "spellbound",
+    "evanescence"
+   ],
+   "dur": 63.978,
+   "hit": 28.932,
+   "onset": 0.755,
+   "peak_db": -5.8,
+   "rms_db": -23.5
+  },
+  {
+   "id": "sonniss/magic-energy-flow-astonishment-001",
+   "path": "SFX/sonniss_gdc2026/Alexander Kopeikin - Emotion and Magic/magic, energy flow, astonishment-001.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "magic",
+   "tags": [
+    "alexander",
+    "kopeikin",
+    "emotion",
+    "magic",
+    "energy",
+    "flow",
+    "astonishment"
+   ],
+   "dur": 19.138,
+   "hit": 11.017,
+   "onset": 1.245,
+   "peak_db": -7.1,
+   "rms_db": -21.3
+  },
+  {
+   "id": "sonniss/gamemisc-magic-creation-23-cb-sounddesign-applic",
+   "path": "SFX/sonniss_gdc2026/CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX/GAMEMisc_Magic Creation 23_CB Sounddesign_APPlicable Sounds.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "sounddesign",
+    "applicable",
+    "organic",
+    "building",
+    "games",
+    "gamemisc",
+    "magic",
+    "creation"
+   ],
+   "dur": 3.186,
+   "hit": 0.711,
+   "onset": 0.24,
+   "peak_db": -0.6,
+   "rms_db": -22.6
+  },
+  {
+   "id": "sonniss/toonmisc-bird-flutes-3-cb-sounddesign-applicable",
+   "path": "SFX/sonniss_gdc2026/CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX/TOONMisc_Bird Flutes 3_CB Sounddesign_APPlicable Sounds.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "sounddesign",
+    "applicable",
+    "organic",
+    "building",
+    "games",
+    "toonmisc",
+    "bird",
+    "flutes"
+   ],
+   "dur": 1.033,
+   "hit": 0.159,
+   "onset": 0.055,
+   "peak_db": -0.6,
+   "rms_db": -13.2
+  },
+  {
+   "id": "sonniss/uimisc-kalimba-3-up-cb-sounddesign-applicable-so",
+   "path": "SFX/sonniss_gdc2026/CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX/UIMisc_Kalimba 3 Up_CB Sounddesign_APPlicable Sounds.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "sounddesign",
+    "applicable",
+    "organic",
+    "building",
+    "games",
+    "uimisc",
+    "kalimba"
+   ],
+   "dur": 0.553,
+   "hit": 0.141,
+   "onset": 0,
+   "peak_db": -6.1,
+   "rms_db": -20.3
+  },
+  {
+   "id": "sonniss/uimisc-xylophone-ringtone-2-cb-sounddesign-appli",
+   "path": "SFX/sonniss_gdc2026/CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX/UIMisc_Xylophone Ringtone 2_CB Sounddesign_APPlicable Sounds.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "sounddesign",
+    "applicable",
+    "organic",
+    "building",
+    "games",
+    "uimisc",
+    "xylophone",
+    "ringtone"
+   ],
+   "dur": 4.108,
+   "hit": 0.512,
+   "onset": 0.005,
+   "peak_db": -2.4,
+   "rms_db": -23.6
+  },
+  {
+   "id": "sonniss/cartoon-bubbles-short",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon & Animation Vol 2/Cartoon Bubbles Short.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "pop",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "animation",
+    "bubbles",
+    "short"
+   ],
+   "dur": 0.875,
+   "hit": 0.288,
+   "onset": 0.01,
+   "peak_db": -2.7,
+   "rms_db": -14.4
+  },
+  {
+   "id": "sonniss/cartoon-pull-swoosh-readout",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon & Animation Vol 2/Cartoon Pull Swoosh Readout.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "animation",
+    "pull",
+    "swoosh",
+    "readout"
+   ],
+   "dur": 2.29,
+   "hit": 1.071,
+   "onset": 0.14,
+   "peak_db": -0.1,
+   "rms_db": -19.2
+  },
+  {
+   "id": "sonniss/cartoon-transition-bass-down",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon & Animation Vol 2/Cartoon Transition Bass Down.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "cartoon",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "animation",
+    "transition",
+    "bass",
+    "down"
+   ],
+   "dur": 3.5,
+   "hit": 0.828,
+   "onset": 0.375,
+   "peak_db": -0.1,
+   "rms_db": -16.3
+  },
+  {
+   "id": "sonniss/arrow-hit-rattle",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon Bloopers/Arrow Hit Rattle.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "bloopers",
+    "arrow",
+    "hit",
+    "rattle"
+   ],
+   "dur": 1.083,
+   "hit": 0.369,
+   "onset": 0.16,
+   "peak_db": -2.1,
+   "rms_db": -23
+  },
+  {
+   "id": "sonniss/cartoon-confused-dizzy",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon Bloopers/Cartoon Confused Dizzy.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "cartoon",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "bloopers",
+    "confused",
+    "dizzy"
+   ],
+   "dur": 1.5,
+   "hit": 0.038,
+   "onset": 0.01,
+   "peak_db": -1.7,
+   "rms_db": -13
+  },
+  {
+   "id": "sonniss/character-elf-it-shall-be-done",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon Bloopers/Character Elf It Shall Be Done.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "cartoon",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "bloopers",
+    "character",
+    "elf",
+    "shall",
+    "done"
+   ],
+   "dur": 0.608,
+   "hit": 0.183,
+   "onset": 0.025,
+   "peak_db": -3.4,
+   "rms_db": -18.3
+  },
+  {
+   "id": "sonniss/cartoon-airy-impact-creaks",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon Impacts/Cartoon Airy Impact Creaks.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "impacts",
+    "airy",
+    "impact",
+    "creaks"
+   ],
+   "dur": 2.5,
+   "hit": 1.089,
+   "onset": 0.615,
+   "peak_db": 3,
+   "rms_db": -11
+  },
+  {
+   "id": "sonniss/cartoon-pops-random-sequence-reverb",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon Impacts/Cartoon Pops Random Sequence Reverb.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "impacts",
+    "pops",
+    "random",
+    "sequence",
+    "reverb"
+   ],
+   "dur": 1.396,
+   "hit": 0.297,
+   "onset": 0.005,
+   "peak_db": 0.8,
+   "rms_db": -16.2
+  },
+  {
+   "id": "sonniss/vibrato-impact-snap-spin-transition",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Cartoon Impacts/Vibrato Impact Snap Spin Transition.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "cartoon",
+    "impacts",
+    "vibrato",
+    "impact",
+    "snap",
+    "spin",
+    "transition"
+   ],
+   "dur": 3.195,
+   "hit": 1.345,
+   "onset": 0.745,
+   "peak_db": 2.9,
+   "rms_db": -14.9
+  },
+  {
+   "id": "sonniss/impact-cut-sweep",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Colossal Impacts/Impact Cut Sweep.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "cinematic",
+    "design",
+    "colossal",
+    "impacts",
+    "impact",
+    "cut",
+    "sweep"
+   ],
+   "dur": 2.792,
+   "hit": 1.069,
+   "onset": 0.555,
+   "peak_db": 1.3,
+   "rms_db": -12.3
+  },
+  {
+   "id": "sonniss/transition-frantic-shaker-snap",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Colossal Impacts/Transition Frantic Shaker Snap.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "colossal",
+    "impacts",
+    "transition",
+    "frantic",
+    "shaker",
+    "snap"
+   ],
+   "dur": 1.458,
+   "hit": 0.475,
+   "onset": 0.18,
+   "peak_db": -0.6,
+   "rms_db": -18.1
+  },
+  {
+   "id": "sonniss/woosh-debris",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Colossal Impacts/Woosh Debris.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "cinematic",
+    "design",
+    "colossal",
+    "impacts",
+    "woosh",
+    "debris"
+   ],
+   "dur": 2.375,
+   "hit": 0.427,
+   "onset": 0.23,
+   "peak_db": 0.5,
+   "rms_db": -13.7
+  },
+  {
+   "id": "sonniss/cofetti-whoosh-pluck-spill",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Hybrid Game & UI Elements/Cofetti Whoosh Pluck Spill.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "cinematic",
+    "design",
+    "hybrid",
+    "game",
+    "elements",
+    "cofetti",
+    "whoosh",
+    "pluck",
+    "spill"
+   ],
+   "dur": 2.536,
+   "hit": 0.272,
+   "onset": 0.11,
+   "peak_db": 0.6,
+   "rms_db": -22.6
+  },
+  {
+   "id": "sonniss/foley-coin-flip-single-fast",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Hybrid Game & UI Elements/Foley Coin Flip Single Fast.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "hybrid",
+    "game",
+    "elements",
+    "foley",
+    "coin",
+    "flip",
+    "single",
+    "fast"
+   ],
+   "dur": 0.938,
+   "hit": 0.079,
+   "onset": 0.015,
+   "peak_db": -6.3,
+   "rms_db": -28.6
+  },
+  {
+   "id": "sonniss/game-entry-happy-short",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Hybrid Game & UI Elements/Game Entry Happy Short.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "hybrid",
+    "game",
+    "elements",
+    "entry",
+    "happy",
+    "short"
+   ],
+   "dur": 0.875,
+   "hit": 0.006,
+   "onset": 0,
+   "peak_db": -3.7,
+   "rms_db": -16.3
+  },
+  {
+   "id": "sonniss/interface-accept-glassy-snap",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Interface & Infographics/Interface Accept Glassy Snap.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "interface",
+    "infographics",
+    "accept",
+    "glassy",
+    "snap"
+   ],
+   "dur": 0.438,
+   "hit": 0.016,
+   "onset": 0.01,
+   "peak_db": -7.1,
+   "rms_db": -20.5
+  },
+  {
+   "id": "sonniss/interface-percussion-snap",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Interface & Infographics/Interface Percussion Snap.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "interface",
+    "infographics",
+    "percussion",
+    "snap"
+   ],
+   "dur": 0.656,
+   "hit": 0.184,
+   "onset": 0.02,
+   "peak_db": -3.2,
+   "rms_db": -24.8
+  },
+  {
+   "id": "sonniss/interface-pop-high-short",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Interface & Infographics/Interface Pop High Short.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "pop",
+   "tags": [
+    "cinematic",
+    "design",
+    "interface",
+    "infographics",
+    "pop",
+    "high",
+    "short"
+   ],
+   "dur": 0.646,
+   "hit": 0.019,
+   "onset": 0.01,
+   "peak_db": 2.4,
+   "rms_db": -11.3
+  },
+  {
+   "id": "sonniss/a4-printing-paper-rattle-page-turn-tail",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Paper Foley/A4 Printing Paper Rattle Page Turn Tail.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "cinematic",
+    "design",
+    "paper",
+    "foley",
+    "printing",
+    "rattle",
+    "page",
+    "turn",
+    "tail"
+   ],
+   "dur": 1.28,
+   "hit": 0.179,
+   "onset": 0.05,
+   "peak_db": -10.1,
+   "rms_db": -35.1
+  },
+  {
+   "id": "sonniss/encyclopedia-glossy-page-turn-muted",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Paper Foley/Encyclopedia Glossy Page Turn Muted.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "cinematic",
+    "design",
+    "paper",
+    "foley",
+    "encyclopedia",
+    "glossy",
+    "page",
+    "turn",
+    "muted"
+   ],
+   "dur": 0.549,
+   "hit": 0.188,
+   "onset": 0,
+   "peak_db": -18.4,
+   "rms_db": -37.4
+  },
+  {
+   "id": "sonniss/newspaper-static-foley-rummage",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Paper Foley/Newspaper Static Foley Rummage.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "cinematic",
+    "design",
+    "paper",
+    "foley",
+    "newspaper",
+    "static",
+    "rummage"
+   ],
+   "dur": 5.143,
+   "hit": 1.435,
+   "onset": 0.125,
+   "peak_db": -12.6,
+   "rms_db": -38.4
+  },
+  {
+   "id": "sonniss/interface-arp-reveal-down-long",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - System & UI Feedback Elements/Interface Arp Reveal Down Long.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "system",
+    "feedback",
+    "elements",
+    "interface",
+    "arp",
+    "reveal",
+    "down",
+    "long"
+   ],
+   "dur": 1.167,
+   "hit": 0.541,
+   "onset": 0,
+   "peak_db": -4.1,
+   "rms_db": -16.8
+  },
+  {
+   "id": "sonniss/interface-deny-low-fat-dark",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - System & UI Feedback Elements/Interface Deny Low Fat Dark.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "system",
+    "feedback",
+    "elements",
+    "interface",
+    "deny",
+    "low",
+    "fat",
+    "dark"
+   ],
+   "dur": 0.743,
+   "hit": 0.021,
+   "onset": 0.005,
+   "peak_db": -1.1,
+   "rms_db": -15.2
+  },
+  {
+   "id": "sonniss/interface-sci-fi-ping-down",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - System & UI Feedback Elements/Interface Sci-Fi Ping Down.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "system",
+    "feedback",
+    "elements",
+    "interface",
+    "sci",
+    "ping",
+    "down"
+   ],
+   "dur": 0.75,
+   "hit": 0.119,
+   "onset": 0.005,
+   "peak_db": -0.4,
+   "rms_db": -11.5
+  },
+  {
+   "id": "sonniss/accept-boing-crunch",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - UI Interaction Elements/Accept Boing Crunch.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "interaction",
+    "elements",
+    "accept",
+    "boing",
+    "crunch"
+   ],
+   "dur": 0.97,
+   "hit": 0.282,
+   "onset": 0.02,
+   "peak_db": -1.5,
+   "rms_db": -15.3
+  },
+  {
+   "id": "sonniss/deny-muted",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - UI Interaction Elements/Deny Muted.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "interaction",
+    "elements",
+    "deny",
+    "muted"
+   ],
+   "dur": 0.799,
+   "hit": 0.222,
+   "onset": 0.015,
+   "peak_db": -2.5,
+   "rms_db": -9.1
+  },
+  {
+   "id": "sonniss/ting-coins",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - UI Interaction Elements/Ting Coins.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "interaction",
+    "elements",
+    "ting",
+    "coins"
+   ],
+   "dur": 1.104,
+   "hit": 0.116,
+   "onset": 0.095,
+   "peak_db": -8.2,
+   "rms_db": -23.6
+  },
+  {
+   "id": "sonniss/impact-hit-rapid-chord-reverb",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Ultra Transitions & Impacts/Impact Hit Rapid Chord Reverb.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "ultra",
+    "transitions",
+    "impacts",
+    "impact",
+    "hit",
+    "rapid",
+    "chord",
+    "reverb"
+   ],
+   "dur": 3.206,
+   "hit": 0.859,
+   "onset": 0.32,
+   "peak_db": 0.7,
+   "rms_db": -22.7
+  },
+  {
+   "id": "sonniss/transition-braam-slow-dark-creepy",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Ultra Transitions & Impacts/Transition Braam Slow Dark Creepy.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "cinematic",
+    "design",
+    "ultra",
+    "transitions",
+    "impacts",
+    "transition",
+    "braam",
+    "slow",
+    "dark",
+    "creepy"
+   ],
+   "dur": 4.5,
+   "hit": 2.547,
+   "onset": 0.33,
+   "peak_db": -4.9,
+   "rms_db": -18.6
+  },
+  {
+   "id": "sonniss/woosh-sweep-slide-infographics-basic",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - Ultra Transitions & Impacts/Woosh Sweep Slide Infographics Basic.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "cinematic",
+    "design",
+    "ultra",
+    "transitions",
+    "impacts",
+    "woosh",
+    "sweep",
+    "slide",
+    "infographics",
+    "basic"
+   ],
+   "dur": 0.5,
+   "hit": 0.077,
+   "onset": 0.045,
+   "peak_db": 2.5,
+   "rms_db": -10.5
+  },
+  {
+   "id": "sonniss/button-arp-twinkle",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - User Interface/Button Arp Twinkle.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "user",
+    "interface",
+    "button",
+    "arp",
+    "twinkle"
+   ],
+   "dur": 1.813,
+   "hit": 0.18,
+   "onset": 0,
+   "peak_db": -5.1,
+   "rms_db": -20.4
+  },
+  {
+   "id": "sonniss/interface-plucks-happy",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - User Interface/Interface Plucks Happy.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "pop",
+   "tags": [
+    "cinematic",
+    "design",
+    "user",
+    "interface",
+    "plucks",
+    "happy"
+   ],
+   "dur": 0.853,
+   "hit": 0.106,
+   "onset": 0,
+   "peak_db": -2.8,
+   "rms_db": -16.5
+  },
+  {
+   "id": "sonniss/readout-thin-long",
+   "path": "SFX/sonniss_gdc2026/Cinematic Sound Design - User Interface/Readout Thin Long.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "cinematic",
+    "design",
+    "user",
+    "interface",
+    "readout",
+    "thin",
+    "long"
+   ],
+   "dur": 4.375,
+   "hit": 0.071,
+   "onset": 0.035,
+   "peak_db": -2.4,
+   "rms_db": -19.9
+  },
+  {
+   "id": "sonniss/hmnbrth-british-detective-breathing-vocal-female",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character British Female Detective/HMNBrth_British Detective Breathing Vocal Female Idle Annoyed Breath Grunt_ESM_AAAGCBFD.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "british",
+    "female",
+    "detective",
+    "hmnbrth"
+   ],
+   "dur": 1.038,
+   "hit": 0.119,
+   "onset": 0.065,
+   "peak_db": 2.1,
+   "rms_db": -11.3
+  },
+  {
+   "id": "sonniss/voxcry-british-detective-crying-vocal-female-low",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character British Female Detective/VOXCry_British Detective Crying Vocal Female Low Energy Weep_ESM_AAAGCBFD.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "british",
+    "female",
+    "detective",
+    "voxcry"
+   ],
+   "dur": 2.654,
+   "hit": 1.532,
+   "onset": 0.075,
+   "peak_db": 2.3,
+   "rms_db": -12.7
+  },
+  {
+   "id": "sonniss/voxfem-british-detective-custom-lines-vocal-fema",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character British Female Detective/VOXFem_British Detective Custom Lines Vocal Female In A World Of Lies And Deception Im The One They Turn To When They Need The Truth B_ESM_AAAGCBFD.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "british",
+    "female",
+    "detective",
+    "voxfem"
+   ],
+   "dur": 4.784,
+   "hit": 2.456,
+   "onset": 0.06,
+   "peak_db": 2.1,
+   "rms_db": -9.2
+  },
+  {
+   "id": "sonniss/voxreac-british-detective-pain-vocal-female-dyin",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character British Female Detective/VOXReac_British Detective Pain Vocal Female Dying High Grunt Breath_ESM_AAAGCBFD.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "british",
+    "female",
+    "detective",
+    "voxreac"
+   ],
+   "dur": 2.077,
+   "hit": 0.184,
+   "onset": 0.02,
+   "peak_db": 2.2,
+   "rms_db": -14.2
+  },
+  {
+   "id": "sonniss/hmnbrth-police-officer-gasp-vocal-male-shocked-a",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character Police Officer/HMNBrth_Police Officer Gasp Vocal Male Shocked Alert 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "police",
+    "officer",
+    "hmnbrth",
+    "gasp"
+   ],
+   "dur": 0.462,
+   "hit": 0.086,
+   "onset": 0.045,
+   "peak_db": 0.9,
+   "rms_db": -11.1
+  },
+  {
+   "id": "sonniss/hmncough-police-officer-cough-vocal-male-11",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character Police Officer/HMNCough_Police Officer Cough Vocal Male 11.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "police",
+    "officer",
+    "hmncough",
+    "cough"
+   ],
+   "dur": 1.385,
+   "hit": 0.221,
+   "onset": 0.195,
+   "peak_db": -1.3,
+   "rms_db": -15
+  },
+  {
+   "id": "sonniss/voxlaff-police-officer-laugh-vocal-male-1",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character Police Officer/VOXLaff_Police Officer Laugh Vocal Male 1.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "police",
+    "officer",
+    "voxlaff",
+    "laugh"
+   ],
+   "dur": 1.731,
+   "hit": 0.527,
+   "onset": 0.09,
+   "peak_db": 1,
+   "rms_db": -11.2
+  },
+  {
+   "id": "sonniss/voxmale-police-officer-custom-lines-vocal-male-e",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - AAA Game Character Police Officer/VOXMale_Police Officer Custom Lines Vocal Male Emergency Shots Fired Need Backup.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "aaa",
+    "game",
+    "character",
+    "police",
+    "officer",
+    "voxmale",
+    "custom"
+   ],
+   "dur": 2.118,
+   "hit": 1.484,
+   "onset": 0.135,
+   "peak_db": 1.3,
+   "rms_db": -12
+  },
+  {
+   "id": "sonniss/dsgnmisc-misc-monster-tentacle-modulated-creatur",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Anime Game/DSGNMisc_Misc Monster Tentacle Modulated Creature Shadow Abstract Swept Wobble Lfo 02_ESM_AG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "creature",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "anime",
+    "game",
+    "dsgnmisc",
+    "misc",
+    "monster",
+    "tentacle",
+    "modulated"
+   ],
+   "dur": 2.041,
+   "hit": 0.74,
+   "onset": 0.03,
+   "peak_db": 1.4,
+   "rms_db": -10.2
+  },
+  {
+   "id": "sonniss/dsgnstngr-power-up-bright-positive-successful-li",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Anime Game/DSGNStngr_Power Up Bright Positive Successful Light Saturation Crash Shimmer 05_ESM_AG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "magic",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "anime",
+    "game",
+    "dsgnstngr",
+    "power",
+    "bright",
+    "positive",
+    "successful"
+   ],
+   "dur": 1.525,
+   "hit": 0.272,
+   "onset": 0.07,
+   "peak_db": -0.9,
+   "rms_db": -19.1
+  },
+  {
+   "id": "sonniss/expldsgn-explosion-small-blast-enemy-death-crunc",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Anime Game/EXPLDsgn_Explosion Small Blast Enemy Death Crunchy Boom Cartoon Noisy Crash Impact Delay 03_ESM_AG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "anime",
+    "game",
+    "expldsgn",
+    "explosion",
+    "small",
+    "blast",
+    "enemy"
+   ],
+   "dur": 1.478,
+   "hit": 0.052,
+   "onset": 0.02,
+   "peak_db": -0.3,
+   "rms_db": -16.4
+  },
+  {
+   "id": "sonniss/fghtimpt-combat-punch-impact-light-hit-delay-cru",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Anime Game/FGHTImpt_Combat Punch Impact Light Hit Delay Crunchy Vintage Quick Smack 05_ESM_AG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "anime",
+    "game",
+    "fghtimpt",
+    "combat",
+    "punch",
+    "impact",
+    "light"
+   ],
+   "dur": 1.057,
+   "hit": 0.094,
+   "onset": 0.035,
+   "peak_db": 0.4,
+   "rms_db": -15.3
+  },
+  {
+   "id": "sonniss/gameboard-event-board-reset-organic-multiple-pie",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games/GAMEBoard_Event Board Reset Organic Multiple Pieces Wood Small 02_ESM_BG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "glitch",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "board",
+    "game",
+    "set",
+    "kit",
+    "tabletop",
+    "digital",
+    "games"
+   ],
+   "dur": 1.113,
+   "hit": 0.415,
+   "onset": 0.05,
+   "peak_db": 2,
+   "rms_db": -16.4
+  },
+  {
+   "id": "sonniss/gameboard-game-play-piece-action-organic-connect",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games/GAMEBoard_Game Play Piece Action Organic Connect Dots Fall Bounce 04_ESM_BG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "pop",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "board",
+    "game",
+    "set",
+    "kit",
+    "tabletop",
+    "digital",
+    "games"
+   ],
+   "dur": 0.215,
+   "hit": 0.01,
+   "onset": 0.005,
+   "peak_db": 1.2,
+   "rms_db": -17.6
+  },
+  {
+   "id": "sonniss/paprhndl-game-play-cards-dry-show-flip-toss-disg",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games/PAPRHndl_Game Play Cards Dry Show Flip Toss Disgard Near 12_ESM_BG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "board",
+    "game",
+    "set",
+    "kit",
+    "tabletop",
+    "digital",
+    "games"
+   ],
+   "dur": 0.167,
+   "hit": 0.072,
+   "onset": 0,
+   "peak_db": -2,
+   "rms_db": -17.2
+  },
+  {
+   "id": "sonniss/uiclick-ui-button-analog-vintage-double-click-ne",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games/UIClick_UI Button Analog Vintage Double Click Neutral Dry Press 11_ESM_BG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "click",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "board",
+    "game",
+    "set",
+    "kit",
+    "tabletop",
+    "digital",
+    "games"
+   ],
+   "dur": 0.167,
+   "hit": 0.021,
+   "onset": 0.015,
+   "peak_db": -4.2,
+   "rms_db": -23.4
+  },
+  {
+   "id": "sonniss/elecmisc-impact-electric-tonal-deep-movement-mot",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Elemental Mutation Whooshes and Impacts/ELECMisc_Impact Electric Tonal Deep Movement Motion Hiss Glitch 01_ESM_EMWI.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "elemental",
+    "mutation",
+    "whooshes",
+    "impacts",
+    "elecmisc",
+    "impact",
+    "electric"
+   ],
+   "dur": 3.689,
+   "hit": 0.08,
+   "onset": 0.03,
+   "peak_db": 0,
+   "rms_db": -15.6
+  },
+  {
+   "id": "sonniss/firewhsh-whoosh-fire-deep-growl-monster-saturate",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Elemental Mutation Whooshes and Impacts/FIREWhsh_Whoosh Fire Deep Growl Monster Saturated Crisp 03_ESM_EMWI.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "elemental",
+    "mutation",
+    "whooshes",
+    "impacts",
+    "firewhsh",
+    "whoosh",
+    "fire"
+   ],
+   "dur": 2.484,
+   "hit": 0.8,
+   "onset": 0.17,
+   "peak_db": 1.3,
+   "rms_db": -11.4
+  },
+  {
+   "id": "sonniss/glasmvmt-whoosh-glass-crystal-fragments-sharp-sh",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Elemental Mutation Whooshes and Impacts/GLASMvmt_Whoosh Glass Crystal Fragments Sharp Shards Dry 05_ESM_EMWI.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "elemental",
+    "mutation",
+    "whooshes",
+    "impacts",
+    "glasmvmt",
+    "whoosh",
+    "glass"
+   ],
+   "dur": 2.633,
+   "hit": 1.463,
+   "onset": 0.39,
+   "peak_db": -3.2,
+   "rms_db": -20.3
+  },
+  {
+   "id": "sonniss/watrimpt-impact-water-deep-submerge-bubble-drown",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Elemental Mutation Whooshes and Impacts/WATRImpt_Impact Water Deep Submerge Bubble Drown Ship Hit 05_ESM_EMWI.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "elemental",
+    "mutation",
+    "whooshes",
+    "impacts",
+    "watrimpt",
+    "impact",
+    "water"
+   ],
+   "dur": 2.17,
+   "hit": 0.09,
+   "onset": 0.035,
+   "peak_db": 1.3,
+   "rms_db": -14.1
+  },
+  {
+   "id": "sonniss/clothflp-action-inventory-open-flip-cloth-canvas",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms/CLOTHFlp_Action Inventory Open Flip Cloth Canvas Bag Slide Light 02_ESM_FG2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "fantasy",
+    "game",
+    "kit",
+    "enchanted",
+    "realms",
+    "clothflp",
+    "action"
+   ],
+   "dur": 0.688,
+   "hit": 0.161,
+   "onset": 0.08,
+   "peak_db": 1.1,
+   "rms_db": -18.1
+  },
+  {
+   "id": "sonniss/gamemisc-source-card-tarot-deck-generic-neutral-",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms/GAMEMisc_Source Card Tarot Deck Generic Neutral Dry Heavy Shuffle 01_ESM_FG2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "fantasy",
+    "game",
+    "kit",
+    "enchanted",
+    "realms",
+    "gamemisc",
+    "source"
+   ],
+   "dur": 4.908,
+   "hit": 2.927,
+   "onset": 2.47,
+   "peak_db": -0.2,
+   "rms_db": -27.6
+  },
+  {
+   "id": "sonniss/magangl-magic-light-spell-enchantment-potion-eff",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms/MAGAngl_Magic Light Spell Enchantment Potion Effect Tonal Bright 03_ESM_FG2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "magic",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "fantasy",
+    "game",
+    "kit",
+    "enchanted",
+    "realms",
+    "magangl",
+    "magic"
+   ],
+   "dur": 5.2,
+   "hit": 1.024,
+   "onset": 0.005,
+   "peak_db": 1.5,
+   "rms_db": -13.8
+  },
+  {
+   "id": "sonniss/uialert-collect-scifi-futuristic-electronic-bass",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms/UIAlert_Collect Scifi Futuristic Electronic Bass Burst Sweep Heavy 04_ESM_FG2.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "fantasy",
+    "game",
+    "kit",
+    "enchanted",
+    "realms",
+    "uialert",
+    "collect"
+   ],
+   "dur": 0.31,
+   "hit": 0.035,
+   "onset": 0,
+   "peak_db": -0.1,
+   "rms_db": -14
+  },
+  {
+   "id": "sonniss/creabeast-creature-werewolf-growl-menacing-monst",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Halloween Game - Haunted House and Horror Audio Scare Kit/CREABeast_Creature Werewolf Growl Menacing Monstrous 06_ESM_HALG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "creature",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "halloween",
+    "game",
+    "haunted",
+    "house",
+    "horror",
+    "scare",
+    "kit"
+   ],
+   "dur": 5.973,
+   "hit": 0.443,
+   "onset": 0.195,
+   "peak_db": 1.8,
+   "rms_db": -12
+  },
+  {
+   "id": "sonniss/dsgnethr-jumpscare-vocal-aggressive-whisper-hars",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Halloween Game - Haunted House and Horror Audio Scare Kit/DSGNEthr_Jumpscare Vocal Aggressive Whisper Harsh Distortion 02_ESM_HALG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "halloween",
+    "game",
+    "haunted",
+    "house",
+    "horror",
+    "scare",
+    "kit"
+   ],
+   "dur": 3.013,
+   "hit": 0.764,
+   "onset": 0.145,
+   "peak_db": 0.5,
+   "rms_db": -16.5
+  },
+  {
+   "id": "sonniss/goresplt-gore-designed-transient-heavy-impact-sm",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Halloween Game - Haunted House and Horror Audio Scare Kit/GORESplt_Gore Designed Transient Heavy Impact Smash 01_ESM_HALG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "halloween",
+    "game",
+    "haunted",
+    "house",
+    "horror",
+    "scare",
+    "kit"
+   ],
+   "dur": 1.801,
+   "hit": 0.017,
+   "onset": 0,
+   "peak_db": 1.1,
+   "rms_db": -16.5
+  },
+  {
+   "id": "sonniss/uialert-alert-designed-transition-swell-creature",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Halloween Game - Haunted House and Horror Audio Scare Kit/UIAlert_Alert Designed Transition Swell Creature Strange Alien Layered 01_ESM_HALG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "riser",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "halloween",
+    "game",
+    "haunted",
+    "house",
+    "horror",
+    "scare",
+    "kit"
+   ],
+   "dur": 6.138,
+   "hit": 0.986,
+   "onset": 0.06,
+   "peak_db": 1.5,
+   "rms_db": -12.4
+  },
+  {
+   "id": "sonniss/icefric-dry-ice-high-metal-squeal-groan-bright-s",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - HD Game Materials/ICEFric_Dry Ice High Metal Squeal Groan Bright Squeak Dissonant Short 13_ESM_HDGM.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "game",
+    "materials",
+    "icefric",
+    "dry",
+    "ice",
+    "high",
+    "metal"
+   ],
+   "dur": 3.921,
+   "hit": 0.854,
+   "onset": 0.06,
+   "peak_db": 0.6,
+   "rms_db": -10.2
+  },
+  {
+   "id": "sonniss/icefric-dry-ice-squeak-metal-animal-mouse-imitat",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - HD Game Materials/ICEFric_Dry Ice Squeak Metal Animal Mouse Imitation Short 07_ESM_HDGM.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "click",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "game",
+    "materials",
+    "icefric",
+    "dry",
+    "ice",
+    "squeak",
+    "metal"
+   ],
+   "dur": 2.183,
+   "hit": 2.016,
+   "onset": 0.235,
+   "peak_db": 0.1,
+   "rms_db": -18.1
+  },
+  {
+   "id": "sonniss/metlimpt-metal-old-file-impact-tap-against-tire-",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - HD Game Materials/METLImpt_Metal Old File Impact Tap Against Tire Iron Metallic Hit 01_ESM_HDGM.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "game",
+    "materials",
+    "metlimpt",
+    "metal",
+    "old",
+    "file",
+    "impact"
+   ],
+   "dur": 0.469,
+   "hit": 0.135,
+   "onset": 0.13,
+   "peak_db": -1.5,
+   "rms_db": -19.7
+  },
+  {
+   "id": "sonniss/woodfric-wood-shaker-microphone-head-roll-table-",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - HD Game Materials/WOODFric_Wood Shaker Microphone Head Roll Table Alternate Grainy 05_ESM_HDGM.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "foley",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "game",
+    "materials",
+    "woodfric",
+    "wood",
+    "shaker",
+    "microphone",
+    "head"
+   ],
+   "dur": 4.157,
+   "hit": 0.636,
+   "onset": 0.005,
+   "peak_db": -8.1,
+   "rms_db": -29.4
+  },
+  {
+   "id": "sonniss/voxfutz-announcer-vocal-male-wet-countdown-ten-k",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Shooter Game Announcer Voice/VOXFutz_Announcer Vocal Male Wet Countdown Ten Kills Remaining 03_ESM_SGAV.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "shooter",
+    "game",
+    "announcer",
+    "voice",
+    "voxfutz",
+    "vocal",
+    "male"
+   ],
+   "dur": 2.115,
+   "hit": 1.119,
+   "onset": 0.015,
+   "peak_db": 2.1,
+   "rms_db": -9.6
+  },
+  {
+   "id": "sonniss/voxfutz-announcer-vocal-male-wet-special-kill-la",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Shooter Game Announcer Voice/VOXFutz_Announcer Vocal Male Wet Special Kill Laugh Monster Kill Hahaha 02_ESM_SGAV.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "shooter",
+    "game",
+    "announcer",
+    "voice",
+    "voxfutz",
+    "vocal",
+    "male"
+   ],
+   "dur": 3.704,
+   "hit": 1.019,
+   "onset": 0.075,
+   "peak_db": 1.9,
+   "rms_db": -9.9
+  },
+  {
+   "id": "sonniss/voxmale-announcer-vocal-male-dry-game-statement-",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Shooter Game Announcer Voice/VOXMale_Announcer Vocal Male Dry Game Statement Objective Completed 04_ESM_SGAV.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "shooter",
+    "game",
+    "announcer",
+    "voice",
+    "voxmale",
+    "vocal",
+    "male"
+   ],
+   "dur": 1.269,
+   "hit": 0.301,
+   "onset": 0.01,
+   "peak_db": 2.2,
+   "rms_db": -11
+  },
+  {
+   "id": "sonniss/voxmale-announcer-vocal-male-dry-special-kill-he",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Shooter Game Announcer Voice/VOXMale_Announcer Vocal Male Dry Special Kill Headshot 01_ESM_SGAV.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "voice",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "shooter",
+    "game",
+    "announcer",
+    "voice",
+    "voxmale",
+    "vocal",
+    "male"
+   ],
+   "dur": 1.154,
+   "hit": 0.198,
+   "onset": 0.025,
+   "peak_db": 2.5,
+   "rms_db": -8.4
+  },
+  {
+   "id": "sonniss/dsgnstngr-action-deploy-units-sword-slice-specia",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Tower Defense Game/DSGNStngr_Action Deploy Units Sword Slice Special Move Layered Swish 04_ESM_TDG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "tower",
+    "defense",
+    "game",
+    "dsgnstngr",
+    "action",
+    "deploy",
+    "units"
+   ],
+   "dur": 2.454,
+   "hit": 0.463,
+   "onset": 0.175,
+   "peak_db": 2,
+   "rms_db": -15.3
+  },
+  {
+   "id": "sonniss/icebrk-skill-freeze-whoosh-break-impact-layered-",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Tower Defense Game/ICEBrk_Skill Freeze Whoosh Break Impact Layered Movement Shatter 03_ESM_TDG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "whoosh",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "tower",
+    "defense",
+    "game",
+    "icebrk",
+    "skill",
+    "freeze",
+    "whoosh"
+   ],
+   "dur": 2.509,
+   "hit": 0.449,
+   "onset": 0.08,
+   "peak_db": 2.5,
+   "rms_db": -11.2
+  },
+  {
+   "id": "sonniss/robtmvmt-tower-deploy-hitech-robot-motor-dark-th",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Tower Defense Game/ROBTMvmt_Tower Deploy Hitech Robot Motor Dark Thump Servo Whine 04_ESM_TDG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "misc",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "tower",
+    "defense",
+    "game",
+    "robtmvmt",
+    "deploy",
+    "hitech",
+    "robot"
+   ],
+   "dur": 1.036,
+   "hit": 0.183,
+   "onset": 0.1,
+   "peak_db": 2.2,
+   "rms_db": -9.7
+  },
+  {
+   "id": "sonniss/woodimpt-hit-blood-spill-splat-wood-impact-light",
+   "path": "SFX/sonniss_gdc2026/Epic Stock Media - Tower Defense Game/WOODImpt_Hit Blood Spill Splat Wood Impact Light Hit Squelch Small Thump 03_ESM_TDG.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "epic",
+    "stock",
+    "media",
+    "tower",
+    "defense",
+    "game",
+    "woodimpt",
+    "hit",
+    "blood",
+    "spill"
+   ],
+   "dur": 0.332,
+   "hit": 0.046,
+   "onset": 0,
+   "peak_db": 0.8,
+   "rms_db": -13.9
+  },
+  {
+   "id": "sonniss/effectivetrailer-alarms-vol2-halfnotes-003",
+   "path": "SFX/sonniss_gdc2026/Federico Soler - Effective Trailer Alarms Vol. 2/EffectiveTrailer_Alarms_Vol2_HalfNotes_003.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "alarm",
+   "tags": [
+    "federico",
+    "soler",
+    "effective",
+    "trailer",
+    "alarms",
+    "effectivetrailer",
+    "halfnotes"
+   ],
+   "dur": 30,
+   "hit": 1.774,
+   "onset": 0,
+   "peak_db": 1.1,
+   "rms_db": -11.6
+  },
+  {
+   "id": "sonniss/effectivetrailer-alarms-vol2-quarternotes-013",
+   "path": "SFX/sonniss_gdc2026/Federico Soler - Effective Trailer Alarms Vol. 2/EffectiveTrailer_Alarms_Vol2_QuarterNotes_013.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "alarm",
+   "tags": [
+    "federico",
+    "soler",
+    "effective",
+    "trailer",
+    "alarms",
+    "effectivetrailer",
+    "quarternotes"
+   ],
+   "dur": 30,
+   "hit": 3.239,
+   "onset": 0,
+   "peak_db": 0.4,
+   "rms_db": -15.5
+  },
+  {
+   "id": "sonniss/effectivetrailer-alarms-vol2-wholenotes-011",
+   "path": "SFX/sonniss_gdc2026/Federico Soler - Effective Trailer Alarms Vol. 2/EffectiveTrailer_Alarms_Vol2_WholeNotes_011.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "alarm",
+   "tags": [
+    "federico",
+    "soler",
+    "effective",
+    "trailer",
+    "alarms",
+    "effectivetrailer",
+    "wholenotes"
+   ],
+   "dur": 30,
+   "hit": 0.265,
+   "onset": 0,
+   "peak_db": 0.2,
+   "rms_db": -16.1
+  },
+  {
+   "id": "sonniss/effectivetrailer-booms-vol2-011",
+   "path": "SFX/sonniss_gdc2026/Federico Soler - Effective Trailer Booms Vol. 2/EffectiveTrailer_Booms_Vol2_011.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "federico",
+    "soler",
+    "effective",
+    "trailer",
+    "booms",
+    "effectivetrailer"
+   ],
+   "dur": 17.271,
+   "hit": 2.955,
+   "onset": 0.27,
+   "peak_db": 2,
+   "rms_db": -11.9
+  },
+  {
+   "id": "sonniss/effectivetrailer-booms-vol2-075",
+   "path": "SFX/sonniss_gdc2026/Federico Soler - Effective Trailer Booms Vol. 2/EffectiveTrailer_Booms_Vol2_075.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "federico",
+    "soler",
+    "effective",
+    "trailer",
+    "booms",
+    "effectivetrailer"
+   ],
+   "dur": 15.46,
+   "hit": 0.292,
+   "onset": 0.26,
+   "peak_db": 2,
+   "rms_db": -15.7
+  },
+  {
+   "id": "sonniss/effectivetrailer-booms-vol2-214",
+   "path": "SFX/sonniss_gdc2026/Federico Soler - Effective Trailer Booms Vol. 2/EffectiveTrailer_Booms_Vol2_214.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "federico",
+    "soler",
+    "effective",
+    "trailer",
+    "booms",
+    "effectivetrailer"
+   ],
+   "dur": 16.267,
+   "hit": 0.277,
+   "onset": 0.265,
+   "peak_db": 2,
+   "rms_db": -10.1
+  },
+  {
+   "id": "sonniss/dsgnbram-cinematic-horn-braam-epic-cinematic-dar",
+   "path": "SFX/sonniss_gdc2026/Jake Fielding - Cinematic Horn Braams/DSGNBram____Cinematic Horn Braam, Epic, Cinematic, Dark, Instrument, Huge-32.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "jake",
+    "fielding",
+    "cinematic",
+    "horn",
+    "braams",
+    "dsgnbram",
+    "braam",
+    "epic",
+    "dark",
+    "instrument"
+   ],
+   "dur": 16.498,
+   "hit": 7.632,
+   "onset": 0.18,
+   "peak_db": -4.8,
+   "rms_db": -21.1
+  },
+  {
+   "id": "sonniss/dsgnbram-cinematic-horn-braam-epic-cinematic-dar-2",
+   "path": "SFX/sonniss_gdc2026/Jake Fielding - Cinematic Horn Braams/DSGNBram____Cinematic Horn Braam, Epic, Cinematic, Dark, Instrument, Huge-67.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "impact",
+   "tags": [
+    "jake",
+    "fielding",
+    "cinematic",
+    "horn",
+    "braams",
+    "dsgnbram",
+    "braam",
+    "epic",
+    "dark",
+    "instrument"
+   ],
+   "dur": 13.689,
+   "hit": 6.033,
+   "onset": 0.135,
+   "peak_db": -1.4,
+   "rms_db": -16.4
+  },
+  {
+   "id": "sonniss/uiglitch-designed-glitch-corrupted-data-error-th",
+   "path": "SFX/sonniss_gdc2026/The Noisery - Rich Glitch/UIGlitch_Designed_Glitch_Corrupted_Data Error_The Noisery_Rich Glitch_06.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "noisery",
+    "rich",
+    "glitch",
+    "uiglitch",
+    "designed",
+    "corrupted",
+    "data",
+    "error"
+   ],
+   "dur": 5.426,
+   "hit": 2.095,
+   "onset": 0.025,
+   "peak_db": -7.9,
+   "rms_db": -31.6
+  },
+  {
+   "id": "sonniss/uiglitch-user-interface-glitch-high-electronic-t",
+   "path": "SFX/sonniss_gdc2026/The Noisery - Rich Glitch/UIGlitch_User interface_Glitch_High_Electronic_The Noisery_Rich Glitch_05.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "ui",
+   "tags": [
+    "noisery",
+    "rich",
+    "glitch",
+    "uiglitch",
+    "user",
+    "interface",
+    "high",
+    "electronic"
+   ],
+   "dur": 24.182,
+   "hit": 11,
+   "onset": 0.01,
+   "peak_db": -16.5,
+   "rms_db": -34.3
+  },
+  {
+   "id": "sonniss/objmisc-scratchcard-surfacewipe-04-inmotionaudio",
+   "path": "SFX/_downloads/sonniss_selected/OBJMisc_ScratchCard_SurfaceWipe_04_InMotionAudio_ScratchCard.wav",
+   "source": "sonniss",
+   "licence": "Sonniss GDC 2026 licence v2.0: commercial use, no attribution; no AI training, no redistribution of raw files",
+   "cat": "paper",
+   "tags": [
+    "objmisc",
+    "scratchcard",
+    "surfacewipe",
+    "inmotionaudio"
+   ],
+   "dur": 1.076,
+   "hit": 0.385,
+   "onset": 0.03,
+   "peak_db": -9.1,
+   "rms_db": -33.5
+  },
+  {
+   "id": "kenney/back-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/back_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "back"
+   ],
+   "dur": 0.061,
+   "hit": 0.008,
+   "onset": 0,
+   "peak_db": -1.4,
+   "rms_db": -19.4
+  },
+  {
+   "id": "kenney/back-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/back_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "back"
+   ],
+   "dur": 0.091,
+   "hit": 0.008,
+   "onset": 0,
+   "peak_db": -1,
+   "rms_db": -13.9
+  },
+  {
+   "id": "kenney/back-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/back_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "back"
+   ],
+   "dur": 0.09,
+   "hit": 0.005,
+   "onset": 0,
+   "peak_db": -0.3,
+   "rms_db": -18
+  },
+  {
+   "id": "kenney/back-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/back_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "back"
+   ],
+   "dur": 0.094,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -15.4
+  },
+  {
+   "id": "kenney/bong-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/bong_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "bong"
+   ],
+   "dur": 0.12,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -16
+  },
+  {
+   "id": "kenney/click-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/click_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.097,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -1.8,
+   "rms_db": -18.4
+  },
+  {
+   "id": "kenney/click-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/click_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.012,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1.2,
+   "rms_db": -15.5
+  },
+  {
+   "id": "kenney/click-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/click_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.007,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1.4,
+   "rms_db": -13.1
+  },
+  {
+   "id": "kenney/click-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/click_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.022,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -3.4,
+   "rms_db": -18.2
+  },
+  {
+   "id": "kenney/click-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/click_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.007,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -1.3,
+   "rms_db": -10.1
+  },
+  {
+   "id": "kenney/close-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/close_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "close"
+   ],
+   "dur": 0.148,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -11.9,
+   "rms_db": -23.3
+  },
+  {
+   "id": "kenney/close-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/close_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "close"
+   ],
+   "dur": 0.314,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -7.9,
+   "rms_db": -19
+  },
+  {
+   "id": "kenney/close-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/close_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "close"
+   ],
+   "dur": 0.314,
+   "hit": 0.203,
+   "onset": 0,
+   "peak_db": -11.2,
+   "rms_db": -20.5
+  },
+  {
+   "id": "kenney/close-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/close_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "close"
+   ],
+   "dur": 0.323,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -7.2,
+   "rms_db": -24.3
+  },
+  {
+   "id": "kenney/confirmation-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/confirmation_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "confirmation"
+   ],
+   "dur": 0.29,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -11.2
+  },
+  {
+   "id": "kenney/confirmation-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/confirmation_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "confirmation"
+   ],
+   "dur": 0.539,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1,
+   "rms_db": -14.5
+  },
+  {
+   "id": "kenney/confirmation-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/confirmation_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "confirmation"
+   ],
+   "dur": 0.322,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1,
+   "rms_db": -14.4
+  },
+  {
+   "id": "kenney/confirmation-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/confirmation_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "confirmation"
+   ],
+   "dur": 0.49,
+   "hit": 0.166,
+   "onset": 0.005,
+   "peak_db": -1,
+   "rms_db": -11.6
+  },
+  {
+   "id": "kenney/drop-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/drop_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "pop",
+   "tags": [
+    "drop"
+   ],
+   "dur": 0.132,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": 2.1,
+   "rms_db": -13
+  },
+  {
+   "id": "kenney/drop-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/drop_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "pop",
+   "tags": [
+    "drop"
+   ],
+   "dur": 0.188,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": 1.9,
+   "rms_db": -12.5
+  },
+  {
+   "id": "kenney/drop-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/drop_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "pop",
+   "tags": [
+    "drop"
+   ],
+   "dur": 0.188,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": 1.9,
+   "rms_db": -12.3
+  },
+  {
+   "id": "kenney/drop-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/drop_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "pop",
+   "tags": [
+    "drop"
+   ],
+   "dur": 0.284,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": 2.1,
+   "rms_db": -12.7
+  },
+  {
+   "id": "kenney/error-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.162,
+   "hit": 0.06,
+   "onset": 0,
+   "peak_db": -1.1,
+   "rms_db": -16.4
+  },
+  {
+   "id": "kenney/error-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.165,
+   "hit": 0.004,
+   "onset": 0,
+   "peak_db": -0.5,
+   "rms_db": -16.5
+  },
+  {
+   "id": "kenney/error-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.533,
+   "hit": 0.016,
+   "onset": 0.01,
+   "peak_db": 0.7,
+   "rms_db": -14.7
+  },
+  {
+   "id": "kenney/error-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.104,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": 1.6,
+   "rms_db": -12.7
+  },
+  {
+   "id": "kenney/error-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.497,
+   "hit": 0.049,
+   "onset": 0.035,
+   "peak_db": -1,
+   "rms_db": -12.5
+  },
+  {
+   "id": "kenney/error-006",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_006.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.5,
+   "hit": 0.089,
+   "onset": 0.02,
+   "peak_db": -0.8,
+   "rms_db": -13.1
+  },
+  {
+   "id": "kenney/error-007",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_007.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.192,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -0.6,
+   "rms_db": -13.1
+  },
+  {
+   "id": "kenney/error-008",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/error_008.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 0.139,
+   "hit": 0.016,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -20.3
+  },
+  {
+   "id": "kenney/glass-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glass_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "glass"
+   ],
+   "dur": 0.276,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1.3,
+   "rms_db": -17.9
+  },
+  {
+   "id": "kenney/glass-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glass_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "glass"
+   ],
+   "dur": 0.122,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1.2,
+   "rms_db": -15.8
+  },
+  {
+   "id": "kenney/glass-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glass_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "glass"
+   ],
+   "dur": 0.121,
+   "hit": 0.046,
+   "onset": 0.025,
+   "peak_db": -1.1,
+   "rms_db": -16.2
+  },
+  {
+   "id": "kenney/glass-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glass_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "glass"
+   ],
+   "dur": 0.692,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": 0.5,
+   "rms_db": -17.1
+  },
+  {
+   "id": "kenney/glass-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glass_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "glass"
+   ],
+   "dur": 0.132,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1.1,
+   "rms_db": -16.4
+  },
+  {
+   "id": "kenney/glass-006",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glass_006.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "glass"
+   ],
+   "dur": 0.132,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -15.2
+  },
+  {
+   "id": "kenney/glitch-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glitch_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "glitch",
+   "tags": [
+    "glitch"
+   ],
+   "dur": 0.017,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": 1.6,
+   "rms_db": -6.5
+  },
+  {
+   "id": "kenney/glitch-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glitch_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "glitch",
+   "tags": [
+    "glitch"
+   ],
+   "dur": 0.027,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": 0.5,
+   "rms_db": -10.6
+  },
+  {
+   "id": "kenney/glitch-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glitch_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "glitch",
+   "tags": [
+    "glitch"
+   ],
+   "dur": 0.012,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": 0.1,
+   "rms_db": -9.5
+  },
+  {
+   "id": "kenney/glitch-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/glitch_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "glitch",
+   "tags": [
+    "glitch"
+   ],
+   "dur": 0.02,
+   "hit": 0.011,
+   "onset": 0,
+   "peak_db": 2.3,
+   "rms_db": -12.6
+  },
+  {
+   "id": "kenney/maximize-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.258,
+   "hit": 0.257,
+   "onset": 0.015,
+   "peak_db": -2.1,
+   "rms_db": -13.2
+  },
+  {
+   "id": "kenney/maximize-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.258,
+   "hit": 0.241,
+   "onset": 0.01,
+   "peak_db": -2.5,
+   "rms_db": -10.9
+  },
+  {
+   "id": "kenney/maximize-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.212,
+   "hit": 0.212,
+   "onset": 0.02,
+   "peak_db": -1.8,
+   "rms_db": -20.7
+  },
+  {
+   "id": "kenney/maximize-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.418,
+   "hit": 0.247,
+   "onset": 0.03,
+   "peak_db": -5,
+   "rms_db": -19.5
+  },
+  {
+   "id": "kenney/maximize-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.526,
+   "hit": 0.476,
+   "onset": 0.095,
+   "peak_db": -3.1,
+   "rms_db": -18.2
+  },
+  {
+   "id": "kenney/maximize-006",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_006.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.38,
+   "hit": 0.064,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -14
+  },
+  {
+   "id": "kenney/maximize-007",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_007.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.183,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -1,
+   "rms_db": -13.1
+  },
+  {
+   "id": "kenney/maximize-008",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_008.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.225,
+   "hit": 0.154,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -12.4
+  },
+  {
+   "id": "kenney/maximize-009",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/maximize_009.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "maximize"
+   ],
+   "dur": 0.222,
+   "hit": 0.03,
+   "onset": 0,
+   "peak_db": -1,
+   "rms_db": -10.1
+  },
+  {
+   "id": "kenney/minimize-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.258,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -2,
+   "rms_db": -12.9
+  },
+  {
+   "id": "kenney/minimize-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.258,
+   "hit": 0.018,
+   "onset": 0,
+   "peak_db": -2.6,
+   "rms_db": -11
+  },
+  {
+   "id": "kenney/minimize-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.212,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -4.2,
+   "rms_db": -20.5
+  },
+  {
+   "id": "kenney/minimize-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.418,
+   "hit": 0.171,
+   "onset": 0.01,
+   "peak_db": -4.9,
+   "rms_db": -19.5
+  },
+  {
+   "id": "kenney/minimize-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.526,
+   "hit": 0.05,
+   "onset": 0,
+   "peak_db": -3.2,
+   "rms_db": -18.2
+  },
+  {
+   "id": "kenney/minimize-006",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_006.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.38,
+   "hit": 0.316,
+   "onset": 0.03,
+   "peak_db": -1,
+   "rms_db": -14
+  },
+  {
+   "id": "kenney/minimize-007",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_007.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.183,
+   "hit": 0.183,
+   "onset": 0.02,
+   "peak_db": -1.3,
+   "rms_db": -14.3
+  },
+  {
+   "id": "kenney/minimize-008",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_008.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.225,
+   "hit": 0.071,
+   "onset": 0.02,
+   "peak_db": -1,
+   "rms_db": -12.4
+  },
+  {
+   "id": "kenney/minimize-009",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/minimize_009.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "whoosh",
+   "tags": [
+    "minimize"
+   ],
+   "dur": 0.222,
+   "hit": 0.195,
+   "onset": 0.06,
+   "peak_db": -1.1,
+   "rms_db": -10.1
+  },
+  {
+   "id": "kenney/open-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/open_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "open"
+   ],
+   "dur": 0.148,
+   "hit": 0.147,
+   "onset": 0.005,
+   "peak_db": -11.7,
+   "rms_db": -23.8
+  },
+  {
+   "id": "kenney/open-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/open_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "open"
+   ],
+   "dur": 0.314,
+   "hit": 0.312,
+   "onset": 0.015,
+   "peak_db": -8.1,
+   "rms_db": -19.2
+  },
+  {
+   "id": "kenney/open-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/open_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "open"
+   ],
+   "dur": 0.314,
+   "hit": 0.314,
+   "onset": 0.01,
+   "peak_db": -10.1,
+   "rms_db": -20.6
+  },
+  {
+   "id": "kenney/open-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/open_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "open"
+   ],
+   "dur": 0.323,
+   "hit": 0.321,
+   "onset": 0.025,
+   "peak_db": -8.7,
+   "rms_db": -24.6
+  },
+  {
+   "id": "kenney/pluck-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/pluck_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "pop",
+   "tags": [
+    "pluck"
+   ],
+   "dur": 0.1,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": -1.3,
+   "rms_db": -17.1
+  },
+  {
+   "id": "kenney/pluck-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/pluck_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "pop",
+   "tags": [
+    "pluck"
+   ],
+   "dur": 0.162,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -1.4,
+   "rms_db": -17.4
+  },
+  {
+   "id": "kenney/question-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/question_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "question"
+   ],
+   "dur": 0.491,
+   "hit": 0.167,
+   "onset": 0.005,
+   "peak_db": -0.9,
+   "rms_db": -11.6
+  },
+  {
+   "id": "kenney/question-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/question_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "question"
+   ],
+   "dur": 0.333,
+   "hit": 0.048,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -9.9
+  },
+  {
+   "id": "kenney/question-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/question_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "question"
+   ],
+   "dur": 0.33,
+   "hit": 0.049,
+   "onset": 0,
+   "peak_db": -1,
+   "rms_db": -9.9
+  },
+  {
+   "id": "kenney/question-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/question_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "question"
+   ],
+   "dur": 0.333,
+   "hit": 0.047,
+   "onset": 0,
+   "peak_db": -1,
+   "rms_db": -9.9
+  },
+  {
+   "id": "kenney/scratch-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scratch_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "paper",
+   "tags": [
+    "scratch"
+   ],
+   "dur": 0.139,
+   "hit": 0.018,
+   "onset": 0,
+   "peak_db": -1.5,
+   "rms_db": -12.6
+  },
+  {
+   "id": "kenney/scratch-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scratch_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "paper",
+   "tags": [
+    "scratch"
+   ],
+   "dur": 0.139,
+   "hit": 0.052,
+   "onset": 0,
+   "peak_db": -2.3,
+   "rms_db": -12
+  },
+  {
+   "id": "kenney/scratch-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scratch_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "paper",
+   "tags": [
+    "scratch"
+   ],
+   "dur": 0.123,
+   "hit": 0.009,
+   "onset": 0,
+   "peak_db": -8.2,
+   "rms_db": -23.8
+  },
+  {
+   "id": "kenney/scratch-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scratch_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "paper",
+   "tags": [
+    "scratch"
+   ],
+   "dur": 0.325,
+   "hit": 0.025,
+   "onset": 0,
+   "peak_db": -1.8,
+   "rms_db": -19.9
+  },
+  {
+   "id": "kenney/scratch-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scratch_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "paper",
+   "tags": [
+    "scratch"
+   ],
+   "dur": 0.325,
+   "hit": 0.241,
+   "onset": 0,
+   "peak_db": -2.1,
+   "rms_db": -15.7
+  },
+  {
+   "id": "kenney/scroll-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scroll_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "scroll"
+   ],
+   "dur": 1,
+   "hit": 0.1,
+   "onset": 0,
+   "peak_db": -0.6,
+   "rms_db": -17.7
+  },
+  {
+   "id": "kenney/scroll-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scroll_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "scroll"
+   ],
+   "dur": 1,
+   "hit": 0.5,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -21.5
+  },
+  {
+   "id": "kenney/scroll-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scroll_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "scroll"
+   ],
+   "dur": 1,
+   "hit": 0.8,
+   "onset": 0,
+   "peak_db": -1.8,
+   "rms_db": -14.9
+  },
+  {
+   "id": "kenney/scroll-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scroll_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "scroll"
+   ],
+   "dur": 1,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -2.2,
+   "rms_db": -14.9
+  },
+  {
+   "id": "kenney/scroll-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/scroll_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "scroll"
+   ],
+   "dur": 1,
+   "hit": 0.3,
+   "onset": 0,
+   "peak_db": -1.4,
+   "rms_db": -11.1
+  },
+  {
+   "id": "kenney/select-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 0.04,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": 1.2,
+   "rms_db": -13
+  },
+  {
+   "id": "kenney/select-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 0.04,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": 1.7,
+   "rms_db": -12.8
+  },
+  {
+   "id": "kenney/select-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 0.38,
+   "hit": 0.024,
+   "onset": 0.01,
+   "peak_db": -0.4,
+   "rms_db": -14.6
+  },
+  {
+   "id": "kenney/select-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 0.38,
+   "hit": 0.023,
+   "onset": 0.01,
+   "peak_db": -0.7,
+   "rms_db": -15
+  },
+  {
+   "id": "kenney/select-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 0.38,
+   "hit": 0.023,
+   "onset": 0.01,
+   "peak_db": -1.4,
+   "rms_db": -15.4
+  },
+  {
+   "id": "kenney/select-006",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_006.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 1.941,
+   "hit": 0.036,
+   "onset": 0.03,
+   "peak_db": -0.8,
+   "rms_db": -11.5
+  },
+  {
+   "id": "kenney/select-007",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_007.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 0.059,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": 0.4,
+   "rms_db": -13.5
+  },
+  {
+   "id": "kenney/select-008",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/select_008.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "select"
+   ],
+   "dur": 0.059,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -4.8,
+   "rms_db": -22.9
+  },
+  {
+   "id": "kenney/switch-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/switch_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.615,
+   "hit": 0.108,
+   "onset": 0,
+   "peak_db": 2.2,
+   "rms_db": -12.1
+  },
+  {
+   "id": "kenney/switch-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/switch_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.608,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": 1.5,
+   "rms_db": -11.2
+  },
+  {
+   "id": "kenney/switch-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/switch_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.5,
+   "hit": 0.009,
+   "onset": 0,
+   "peak_db": 1.9,
+   "rms_db": -8.5
+  },
+  {
+   "id": "kenney/switch-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/switch_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.497,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": 0.9,
+   "rms_db": -12.3
+  },
+  {
+   "id": "kenney/switch-005",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/switch_005.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.609,
+   "hit": 0.004,
+   "onset": 0,
+   "peak_db": 0.5,
+   "rms_db": -10.3
+  },
+  {
+   "id": "kenney/switch-006",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/switch_006.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.608,
+   "hit": 0.003,
+   "onset": 0,
+   "peak_db": -2.3,
+   "rms_db": -15.9
+  },
+  {
+   "id": "kenney/switch-007",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/switch_007.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.611,
+   "hit": 0.109,
+   "onset": 0,
+   "peak_db": 0.1,
+   "rms_db": -14.3
+  },
+  {
+   "id": "kenney/tick-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/tick_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "tick"
+   ],
+   "dur": 0.045,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -5.5,
+   "rms_db": -18.8
+  },
+  {
+   "id": "kenney/tick-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/tick_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "tick"
+   ],
+   "dur": 0.02,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -4.4,
+   "rms_db": -19.3
+  },
+  {
+   "id": "kenney/tick-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/tick_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "tick"
+   ],
+   "dur": 0.055,
+   "hit": 0.047,
+   "onset": 0.025,
+   "peak_db": -1.1,
+   "rms_db": -15.9
+  },
+  {
+   "id": "kenney/toggle-001",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/toggle_001.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "toggle"
+   ],
+   "dur": 0.136,
+   "hit": 0.008,
+   "onset": 0,
+   "peak_db": -0.7,
+   "rms_db": -12.5
+  },
+  {
+   "id": "kenney/toggle-002",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/toggle_002.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "toggle"
+   ],
+   "dur": 0.136,
+   "hit": 0.014,
+   "onset": 0,
+   "peak_db": -0.6,
+   "rms_db": -10.3
+  },
+  {
+   "id": "kenney/toggle-003",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/toggle_003.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "toggle"
+   ],
+   "dur": 0.139,
+   "hit": 0.001,
+   "onset": 0,
+   "peak_db": -4.2,
+   "rms_db": -14.5
+  },
+  {
+   "id": "kenney/toggle-004",
+   "path": "SFX/_downloads/kenney_interface-sounds/Audio/toggle_004.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "toggle"
+   ],
+   "dur": 0.063,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -0.9,
+   "rms_db": -16.1
+  },
+  {
+   "id": "kenney/click1",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/click1.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.091,
+   "hit": 0.019,
+   "onset": 0.01,
+   "peak_db": -0.5,
+   "rms_db": -16.8
+  },
+  {
+   "id": "kenney/click2",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/click2.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.053,
+   "hit": 0.011,
+   "onset": 0.005,
+   "peak_db": 0.8,
+   "rms_db": -13.8
+  },
+  {
+   "id": "kenney/click3",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/click3.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.083,
+   "hit": 0.028,
+   "onset": 0.025,
+   "peak_db": 0.9,
+   "rms_db": -19.8
+  },
+  {
+   "id": "kenney/click4",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/click4.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.038,
+   "hit": 0.008,
+   "onset": 0.005,
+   "peak_db": -2.5,
+   "rms_db": -17.5
+  },
+  {
+   "id": "kenney/click5",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/click5.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.035,
+   "hit": 0.009,
+   "onset": 0.005,
+   "peak_db": -2.9,
+   "rms_db": -17.7
+  },
+  {
+   "id": "kenney/mouseclick1",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/mouseclick1.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "mouseclick"
+   ],
+   "dur": 0.057,
+   "hit": 0.015,
+   "onset": 0.01,
+   "peak_db": -7.3,
+   "rms_db": -24.2
+  },
+  {
+   "id": "kenney/mouserelease1",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/mouserelease1.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "mouserelease"
+   ],
+   "dur": 0.066,
+   "hit": 0.026,
+   "onset": 0.02,
+   "peak_db": -11.5,
+   "rms_db": -30.1
+  },
+  {
+   "id": "kenney/rollover1",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/rollover1.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "rollover"
+   ],
+   "dur": 0.224,
+   "hit": 0.06,
+   "onset": 0.055,
+   "peak_db": 0.4,
+   "rms_db": -21.8
+  },
+  {
+   "id": "kenney/rollover2",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/rollover2.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "rollover"
+   ],
+   "dur": 0.054,
+   "hit": 0.023,
+   "onset": 0.02,
+   "peak_db": 0.2,
+   "rms_db": -19.1
+  },
+  {
+   "id": "kenney/rollover3",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/rollover3.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "rollover"
+   ],
+   "dur": 0.066,
+   "hit": 0.038,
+   "onset": 0,
+   "peak_db": -1.9,
+   "rms_db": -16.4
+  },
+  {
+   "id": "kenney/rollover4",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/rollover4.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "rollover"
+   ],
+   "dur": 0.11,
+   "hit": 0.068,
+   "onset": 0.05,
+   "peak_db": -2.4,
+   "rms_db": -19.4
+  },
+  {
+   "id": "kenney/rollover5",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/rollover5.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "rollover"
+   ],
+   "dur": 0.109,
+   "hit": 0.024,
+   "onset": 0.01,
+   "peak_db": -1.6,
+   "rms_db": -20.5
+  },
+  {
+   "id": "kenney/rollover6",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/rollover6.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "ui",
+   "tags": [
+    "rollover"
+   ],
+   "dur": 0.172,
+   "hit": 0.046,
+   "onset": 0.015,
+   "peak_db": -7.8,
+   "rms_db": -20.3
+  },
+  {
+   "id": "kenney/switch1",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch1.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.312,
+   "hit": 0.077,
+   "onset": 0.075,
+   "peak_db": 2.8,
+   "rms_db": -17.2
+  },
+  {
+   "id": "kenney/switch10",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch10.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.388,
+   "hit": 0.119,
+   "onset": 0.115,
+   "peak_db": 1.3,
+   "rms_db": -17.5
+  },
+  {
+   "id": "kenney/switch11",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch11.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.294,
+   "hit": 0.09,
+   "onset": 0.085,
+   "peak_db": 0.4,
+   "rms_db": -18.6
+  },
+  {
+   "id": "kenney/switch12",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch12.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.051,
+   "hit": 0.01,
+   "onset": 0.005,
+   "peak_db": -4,
+   "rms_db": -20.2
+  },
+  {
+   "id": "kenney/switch13",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch13.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.025,
+   "hit": 0.008,
+   "onset": 0,
+   "peak_db": -7,
+   "rms_db": -20
+  },
+  {
+   "id": "kenney/switch14",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch14.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.035,
+   "hit": 0.007,
+   "onset": 0,
+   "peak_db": -7,
+   "rms_db": -20.7
+  },
+  {
+   "id": "kenney/switch15",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch15.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.253,
+   "hit": 0.086,
+   "onset": 0.08,
+   "peak_db": 0.8,
+   "rms_db": -16.3
+  },
+  {
+   "id": "kenney/switch16",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch16.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.356,
+   "hit": 0.154,
+   "onset": 0.14,
+   "peak_db": 2.8,
+   "rms_db": -12.4
+  },
+  {
+   "id": "kenney/switch17",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch17.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.33,
+   "hit": 0.107,
+   "onset": 0.1,
+   "peak_db": 1.9,
+   "rms_db": -15.5
+  },
+  {
+   "id": "kenney/switch18",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch18.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.432,
+   "hit": 0.145,
+   "onset": 0.13,
+   "peak_db": 3.7,
+   "rms_db": -11.8
+  },
+  {
+   "id": "kenney/switch19",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch19.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.381,
+   "hit": 0.126,
+   "onset": 0.12,
+   "peak_db": -0.3,
+   "rms_db": -16.2
+  },
+  {
+   "id": "kenney/switch2",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch2.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.318,
+   "hit": 0.048,
+   "onset": 0.045,
+   "peak_db": -1.5,
+   "rms_db": -20.4
+  },
+  {
+   "id": "kenney/switch20",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch20.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.356,
+   "hit": 0.164,
+   "onset": 0.16,
+   "peak_db": -0.2,
+   "rms_db": -19.3
+  },
+  {
+   "id": "kenney/switch21",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch21.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.407,
+   "hit": 0.173,
+   "onset": 0.145,
+   "peak_db": -0.4,
+   "rms_db": -20.1
+  },
+  {
+   "id": "kenney/switch22",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch22.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.356,
+   "hit": 0.101,
+   "onset": 0.095,
+   "peak_db": 3.1,
+   "rms_db": -15.1
+  },
+  {
+   "id": "kenney/switch23",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch23.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.381,
+   "hit": 0.154,
+   "onset": 0.13,
+   "peak_db": 3,
+   "rms_db": -13.7
+  },
+  {
+   "id": "kenney/switch24",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch24.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.279,
+   "hit": 0.105,
+   "onset": 0.08,
+   "peak_db": 0.8,
+   "rms_db": -18.4
+  },
+  {
+   "id": "kenney/switch25",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch25.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.381,
+   "hit": 0.183,
+   "onset": 0.145,
+   "peak_db": 2.7,
+   "rms_db": -15.6
+  },
+  {
+   "id": "kenney/switch26",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch26.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.228,
+   "hit": 0.058,
+   "onset": 0.055,
+   "peak_db": 1,
+   "rms_db": -16.3
+  },
+  {
+   "id": "kenney/switch27",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch27.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.279,
+   "hit": 0.096,
+   "onset": 0.09,
+   "peak_db": 2.5,
+   "rms_db": -15.2
+  },
+  {
+   "id": "kenney/switch28",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch28.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.202,
+   "hit": 0.063,
+   "onset": 0.06,
+   "peak_db": 1.8,
+   "rms_db": -14.5
+  },
+  {
+   "id": "kenney/switch29",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch29.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.304,
+   "hit": 0.116,
+   "onset": 0.11,
+   "peak_db": -1.8,
+   "rms_db": -21.9
+  },
+  {
+   "id": "kenney/switch3",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch3.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.364,
+   "hit": 0.054,
+   "onset": 0.05,
+   "peak_db": 2.6,
+   "rms_db": -18.6
+  },
+  {
+   "id": "kenney/switch30",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch30.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.356,
+   "hit": 0.173,
+   "onset": 0.17,
+   "peak_db": 3.5,
+   "rms_db": -12.9
+  },
+  {
+   "id": "kenney/switch31",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch31.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.432,
+   "hit": 0.151,
+   "onset": 0.15,
+   "peak_db": 3.6,
+   "rms_db": -14.8
+  },
+  {
+   "id": "kenney/switch32",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch32.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.432,
+   "hit": 0.13,
+   "onset": 0.115,
+   "peak_db": 4.1,
+   "rms_db": -14.5
+  },
+  {
+   "id": "kenney/switch33",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch33.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.512,
+   "hit": 0.168,
+   "onset": 0.165,
+   "peak_db": 0.7,
+   "rms_db": -19.8
+  },
+  {
+   "id": "kenney/switch34",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch34.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.483,
+   "hit": 0.117,
+   "onset": 0.11,
+   "peak_db": -2.8,
+   "rms_db": -22.4
+  },
+  {
+   "id": "kenney/switch35",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch35.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.33,
+   "hit": 0.122,
+   "onset": 0.1,
+   "peak_db": -6.7,
+   "rms_db": -24.8
+  },
+  {
+   "id": "kenney/switch36",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch36.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.329,
+   "hit": 0.128,
+   "onset": 0.11,
+   "peak_db": -2.2,
+   "rms_db": -21.4
+  },
+  {
+   "id": "kenney/switch37",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch37.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.304,
+   "hit": 0.138,
+   "onset": 0.105,
+   "peak_db": -4.6,
+   "rms_db": -24.7
+  },
+  {
+   "id": "kenney/switch38",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch38.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.421,
+   "hit": 0.04,
+   "onset": 0.035,
+   "peak_db": -1.8,
+   "rms_db": -22.8
+  },
+  {
+   "id": "kenney/switch4",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch4.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.417,
+   "hit": 0.142,
+   "onset": 0.14,
+   "peak_db": -3.6,
+   "rms_db": -24.4
+  },
+  {
+   "id": "kenney/switch5",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch5.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.312,
+   "hit": 0.097,
+   "onset": 0.09,
+   "peak_db": -0.7,
+   "rms_db": -21
+  },
+  {
+   "id": "kenney/switch6",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch6.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.347,
+   "hit": 0.12,
+   "onset": 0.11,
+   "peak_db": -3.3,
+   "rms_db": -23.3
+  },
+  {
+   "id": "kenney/switch7",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch7.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.213,
+   "hit": 0.036,
+   "onset": 0.03,
+   "peak_db": 0.7,
+   "rms_db": -21.2
+  },
+  {
+   "id": "kenney/switch8",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch8.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.329,
+   "hit": 0.116,
+   "onset": 0.11,
+   "peak_db": -3.3,
+   "rms_db": -21.6
+  },
+  {
+   "id": "kenney/switch9",
+   "path": "SFX/_downloads/kenney_ui-audio/Audio/switch9.ogg",
+   "source": "kenney",
+   "licence": "CC0 (Kenney)",
+   "cat": "click",
+   "tags": [
+    "switch"
+   ],
+   "dur": 0.259,
+   "hit": 0.088,
+   "onset": 0.08,
+   "peak_db": 1.8,
+   "rms_db": -19.3
+  },
+  {
+   "id": "bundled/chime",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/chime.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "magic",
+   "tags": [
+    "chime"
+   ],
+   "dur": 2.5,
+   "hit": 0.416,
+   "onset": 0.415,
+   "peak_db": -10.5,
+   "rms_db": -31.1
+  },
+  {
+   "id": "bundled/click-soft",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/click-soft.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "click",
+   "tags": [
+    "click",
+    "soft"
+   ],
+   "dur": 0.366,
+   "hit": 0.072,
+   "onset": 0.045,
+   "peak_db": -3.9,
+   "rms_db": -22.1
+  },
+  {
+   "id": "bundled/click",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/click.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.366,
+   "hit": 0.072,
+   "onset": 0.045,
+   "peak_db": -3.9,
+   "rms_db": -22.1
+  },
+  {
+   "id": "bundled/error",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/error.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "ui",
+   "tags": [
+    "error"
+   ],
+   "dur": 1.62,
+   "hit": 0.739,
+   "onset": 0.605,
+   "peak_db": -18.3,
+   "rms_db": -25.5
+  },
+  {
+   "id": "bundled/glitch-1",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/glitch-1.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "glitch",
+   "tags": [
+    "glitch"
+   ],
+   "dur": 2.638,
+   "hit": 0.82,
+   "onset": 0.175,
+   "peak_db": 3.7,
+   "rms_db": -14.4
+  },
+  {
+   "id": "bundled/glitch-2",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/glitch-2.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "glitch",
+   "tags": [
+    "glitch"
+   ],
+   "dur": 3.504,
+   "hit": 0.781,
+   "onset": 0.02,
+   "peak_db": 4.6,
+   "rms_db": -7.6
+  },
+  {
+   "id": "bundled/glitch-3",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/glitch-3.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "glitch",
+   "tags": [
+    "glitch"
+   ],
+   "dur": 3.096,
+   "hit": 0.77,
+   "onset": 0.24,
+   "peak_db": -9.2,
+   "rms_db": -26.2
+  },
+  {
+   "id": "bundled/impact-bass-1",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/impact-bass-1.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "impact",
+   "tags": [
+    "impact",
+    "bass"
+   ],
+   "dur": 2.116,
+   "hit": 0.073,
+   "onset": 0.05,
+   "peak_db": 2.6,
+   "rms_db": -1.8
+  },
+  {
+   "id": "bundled/impact-bass-2",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/impact-bass-2.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "impact",
+   "tags": [
+    "impact",
+    "bass"
+   ],
+   "dur": 2.592,
+   "hit": 0.361,
+   "onset": 0.02,
+   "peak_db": 3,
+   "rms_db": 0.1
+  },
+  {
+   "id": "bundled/key-press",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/key-press.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "typing",
+   "tags": [
+    "key",
+    "press"
+   ],
+   "dur": 0.4,
+   "hit": 0.075,
+   "onset": 0.07,
+   "peak_db": -9.6,
+   "rms_db": -31.1
+  },
+  {
+   "id": "bundled/notification",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/notification.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "ui",
+   "tags": [
+    "notification"
+   ],
+   "dur": 2.455,
+   "hit": 0.227,
+   "onset": 0.085,
+   "peak_db": -3.7,
+   "rms_db": -21.8
+  },
+  {
+   "id": "bundled/ping",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/ping.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "ui",
+   "tags": [
+    "ping"
+   ],
+   "dur": 1.32,
+   "hit": 0.323,
+   "onset": 0.32,
+   "peak_db": -4.6,
+   "rms_db": -28.1
+  },
+  {
+   "id": "bundled/pop",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/pop.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "pop",
+   "tags": [
+    "pop"
+   ],
+   "dur": 0.72,
+   "hit": 0.119,
+   "onset": 0.115,
+   "peak_db": -0.2,
+   "rms_db": -14.2
+  },
+  {
+   "id": "bundled/riser",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/riser.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "riser",
+   "tags": [
+    "riser"
+   ],
+   "dur": 10.032,
+   "hit": 3.526,
+   "onset": 1.67,
+   "peak_db": 2.8,
+   "rms_db": -8.6
+  },
+  {
+   "id": "bundled/sparkle",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/sparkle.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "magic",
+   "tags": [
+    "sparkle"
+   ],
+   "dur": 1.802,
+   "hit": 0.026,
+   "onset": 0.025,
+   "peak_db": 2.2,
+   "rms_db": -13.8
+  },
+  {
+   "id": "bundled/typing",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/typing.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "typing",
+   "tags": [
+    "typing"
+   ],
+   "dur": 1.5,
+   "hit": 0.455,
+   "onset": 0.45,
+   "peak_db": -6.4,
+   "rms_db": -29
+  },
+  {
+   "id": "bundled/whoosh-cinematic",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/whoosh-cinematic.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "whoosh",
+   "tags": [
+    "whoosh",
+    "cinematic"
+   ],
+   "dur": 5.544,
+   "hit": 2.502,
+   "onset": 1.755,
+   "peak_db": 2.7,
+   "rms_db": -12.1
+  },
+  {
+   "id": "bundled/whoosh-short",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/whoosh-short.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "whoosh",
+   "tags": [
+    "whoosh",
+    "short"
+   ],
+   "dur": 0.575,
+   "hit": 0.161,
+   "onset": 0.085,
+   "peak_db": 0.7,
+   "rms_db": -12.7
+  },
+  {
+   "id": "bundled/whoosh",
+   "path": "~/.claude/skills/media-use/audio/assets/sfx/whoosh.mp3",
+   "source": "bundled",
+   "licence": "Pixabay Content License",
+   "cat": "whoosh",
+   "tags": [
+    "whoosh"
+   ],
+   "dur": 0.575,
+   "hit": 0.161,
+   "onset": 0.085,
+   "peak_db": 0.7,
+   "rms_db": -12.7
+  },
+  {
+   "id": "synth/boom",
+   "path": "LIBRARY/sfx/synth/boom.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "impact",
+   "tags": [
+    "boom"
+   ],
+   "dur": 3.4,
+   "hit": 0.013,
+   "onset": 0,
+   "peak_db": -3,
+   "rms_db": -17.1
+  },
+  {
+   "id": "synth/click",
+   "path": "LIBRARY/sfx/synth/click.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "click",
+   "tags": [
+    "click"
+   ],
+   "dur": 0.015,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": -8.4,
+   "rms_db": -19.9
+  },
+  {
+   "id": "synth/low-whoosh",
+   "path": "LIBRARY/sfx/synth/low_whoosh.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "whoosh",
+   "tags": [
+    "low",
+    "whoosh"
+   ],
+   "dur": 0.5,
+   "hit": 0.304,
+   "onset": 0.255,
+   "peak_db": -3,
+   "rms_db": -15.2
+  },
+  {
+   "id": "synth/pop",
+   "path": "LIBRARY/sfx/synth/pop.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "pop",
+   "tags": [
+    "pop"
+   ],
+   "dur": 0.09,
+   "hit": 0.002,
+   "onset": 0,
+   "peak_db": -3.1,
+   "rms_db": -15
+  },
+  {
+   "id": "synth/riser",
+   "path": "LIBRARY/sfx/synth/riser.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "riser",
+   "tags": [
+    "riser"
+   ],
+   "dur": 1.2,
+   "hit": 1.182,
+   "onset": 0.255,
+   "peak_db": -3.4,
+   "rms_db": -13.3
+  },
+  {
+   "id": "synth/sparkle",
+   "path": "LIBRARY/sfx/synth/sparkle.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "magic",
+   "tags": [
+    "sparkle"
+   ],
+   "dur": 0.7,
+   "hit": 0.036,
+   "onset": 0,
+   "peak_db": -3,
+   "rms_db": -16.3
+  },
+  {
+   "id": "synth/sub-drop",
+   "path": "LIBRARY/sfx/synth/sub_drop.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "drop",
+   "tags": [
+    "sub",
+    "drop"
+   ],
+   "dur": 2.4,
+   "hit": 0.011,
+   "onset": 0,
+   "peak_db": -3,
+   "rms_db": -13.7
+  },
+  {
+   "id": "synth/tick",
+   "path": "LIBRARY/sfx/synth/tick.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "click",
+   "tags": [
+    "tick"
+   ],
+   "dur": 0.03,
+   "hit": 0,
+   "onset": 0,
+   "peak_db": -3.2,
+   "rms_db": -15.3
+  },
+  {
+   "id": "synth/whoosh",
+   "path": "LIBRARY/sfx/synth/whoosh.wav",
+   "source": "synth",
+   "licence": "own (ffmpeg synthesis)",
+   "cat": "whoosh",
+   "tags": [
+    "whoosh"
+   ],
+   "dur": 0.4,
+   "hit": 0.235,
+   "onset": 0.17,
+   "peak_db": -3.8,
+   "rms_db": -17.3
+  }
+ ]
+}

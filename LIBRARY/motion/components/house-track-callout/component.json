@@ -1,0 +1,47 @@
+{
+ "name": "house-track-callout",
+ "summary": "A ring or box that follows an object through footage, with a label on a leader line.",
+ "duration": 4,
+ "variables": [
+  {
+   "id": "track",
+   "type": "string",
+   "default": "[{\"t\":0,\"x\":0.3,\"y\":0.4,\"w\":0.2,\"h\":0.1},{\"t\":2,\"x\":0.5,\"y\":0.45,\"w\":0.2,\"h\":0.1},{\"t\":4,\"x\":0.55,\"y\":0.35,\"w\":0.2,\"h\":0.1}]"
+  },
+  {
+   "id": "label",
+   "type": "string",
+   "default": "This one"
+  },
+  {
+   "id": "shape",
+   "type": "enum",
+   "default": "ring",
+   "options": [
+    "ring",
+    "box"
+   ]
+  },
+  {
+   "id": "side",
+   "type": "enum",
+   "default": "right",
+   "options": [
+    "right",
+    "left"
+   ]
+  },
+  {
+   "id": "pad",
+   "type": "number",
+   "default": 18
+  },
+  {
+   "id": "accent",
+   "type": "color",
+   "default": ""
+  }
+ ],
+ "mount": "<div id=\"track-callout-1\" data-composition-id=\"house-track-callout\" data-composition-src=\"compositions/components/house-track-callout/house-track-callout.html\" data-start=\"0\" data-duration=\"4\" data-track-index=\"5\" data-variable-values='{}' style=\"position:absolute;inset:0\"></div>",
+ "notes": "Full usage in the comment header of the .html file."
+}

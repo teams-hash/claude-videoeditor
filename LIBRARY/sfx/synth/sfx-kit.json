@@ -1,0 +1,65 @@
+[
+ {
+  "file": "sub_drop.wav",
+  "duration_s": 2.4,
+  "peak_s": 0.011,
+  "gain_db": -6,
+  "use": "Reveal word or stat: start it on the first frame of the word (felt more than heard)."
+ },
+ {
+  "file": "boom.wav",
+  "duration_s": 3.4,
+  "peak_s": 0.013,
+  "gain_db": -8,
+  "use": "Frame 0 of the reel: low impact with a long tail."
+ },
+ {
+  "file": "low_whoosh.wav",
+  "duration_s": 0.5,
+  "peak_s": 0.304,
+  "gain_db": -10,
+  "use": "Scene cuts: the swell peaks 2-4 frames before the picture cut."
+ },
+ {
+  "file": "whoosh.wav",
+  "duration_s": 0.4,
+  "peak_s": 0.23,
+  "gain_db": -12,
+  "use": "Card wipes, picture-in-picture expansions, whip cuts."
+ },
+ {
+  "file": "pop.wav",
+  "duration_s": 0.09,
+  "peak_s": 0.002,
+  "gain_db": -15,
+  "use": "First visible frame of a card, icon, tile or word box."
+ },
+ {
+  "file": "click.wav",
+  "duration_s": 0.015,
+  "peak_s": 0,
+  "gain_db": -20,
+  "use": "UI taps, send buttons, typing (every 2-3 characters)."
+ },
+ {
+  "file": "tick.wav",
+  "duration_s": 0.03,
+  "peak_s": 0,
+  "gain_db": -20,
+  "use": "Counter and odometer steps."
+ },
+ {
+  "file": "riser.wav",
+  "duration_s": 1.2,
+  "peak_s": 1.175,
+  "gain_db": -15,
+  "use": "Into a reveal or list completion: the peak is the end, so hit = reveal time."
+ },
+ {
+  "file": "sparkle.wav",
+  "duration_s": 0.7,
+  "peak_s": 0.036,
+  "gain_db": -18,
+  "use": "Premium reveals: widgets, final numbers, sparkle icons."
+ }
+]

@@ -1,0 +1,19 @@
+/* House tokens for HyperFrames compositions. Paste into the root index.html style block (or link the file) and override per
+   video: one ground, one ink, one accent. House components read these with their own fallbacks.
+   Fonts: Inter, Playfair Display, JetBrains Mono, Oswald are bundled; for library fonts run
+   `studio fonts add <hf> "Inter Tight" "Instrument Serif"` and paste the printed @font-face block. */
+:root {
+  --h-ground: #163227;          /* 60%: background */
+  --h-card: #F5F3EE;            /* 30%: cards and plates */
+  --h-ink: #F5F3EE;             /* text on the ground */
+  --h-ink-on-card: #14161A;     /* text on cards */
+  --h-muted: rgba(245, 243, 238, 0.55);
+  --h-accent: #C5A759;          /* 10%: the key word or number only */
+  --h-font-display: 'Inter Tight', Inter, system-ui, sans-serif;
+  --h-font-accent: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+  --h-font-text: Inter, system-ui, sans-serif;
+  --h-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --h-radius: 2.2cqw;
+  --h-shadow: 0 0.3cqh 0.8cqh rgba(0, 0, 0, 0.18), 0 2cqh 5cqh rgba(0, 0, 0, 0.28);
+}
+/* Safe zone on 1080x1920 (house): top 220, bottom 450, sides 35, right 100 from two-thirds down. */

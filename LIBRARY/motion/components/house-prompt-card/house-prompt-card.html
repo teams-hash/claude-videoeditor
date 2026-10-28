@@ -1,0 +1,106 @@
+<!doctype html>
+<!--
+  house-prompt-card: studio house component (tutorials / prompts, house recipe 13)
+
+  A rounded prompt field with a tiny mono label ("TO CLAUDE"), text typed at a steady characters-per-second rate
+  with a blinking-free caret (it simply follows the text), and a round send button that turns into "SENT" at the end.
+  Typing is one span per character switched on by the timeline, so every frame is seekable.
+
+  Variables:
+    - label (string, default "TO CLAUDE"), text (string): the prompt.
+    - cps (number, default 18): characters per second (house 15-20). delay (number, default 0.3).
+    - sent (boolean, default true): show the sent state after typing.
+    - theme (light | dark, default light). accent (color): send button colour.
+
+  Mount: data-composition-id="house-prompt-card" data-composition-src="compositions/components/house-prompt-card/house-prompt-card.html"
+         style="position:absolute;left:0;top:20%;width:100%;height:30%". Pair with click sounds every 2-3 characters.
+-->
+<html
+  lang="en"
+  data-composition-id="house-prompt-card"
+  data-composition-duration="5"
+  data-composition-variables='[
+    { "id": "label", "type": "string", "role": "content", "label": "Label", "default": "TO CLAUDE" },
+    { "id": "text", "type": "string", "role": "content", "label": "Prompt", "default": "Cut every pause over 0.3 s and keep the last clean take of each line." },
+    { "id": "cps", "type": "number", "role": "timing", "label": "Characters per second", "default": 18, "min": 5, "max": 60 },
+    { "id": "delay", "type": "number", "role": "timing", "label": "Delay (s)", "default": 0.3 },
+    { "id": "sent", "type": "boolean", "role": "content", "label": "Sent state", "default": true },
+    { "id": "theme", "type": "enum", "role": "style", "label": "Theme", "default": "light", "options": [{ "value": "light", "label": "Light" }, { "value": "dark", "label": "Dark" }] },
+    { "id": "accent", "type": "color", "role": "style", "label": "Accent", "default": "" }
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <title>House prompt card</title>
+  </head>
+  <body>
+    <template>
+      <div id="root" data-composition-id="house-prompt-card" data-duration="5" data-fps="30">
+        <style>
+          #root { position: absolute; inset: 0; overflow: hidden; container-type: size; pointer-events: none; }
+          .hp-clip { position: absolute; inset: 0; display: grid; place-items: center; }
+          .hp-card { width: 86cqw; border-radius: 3cqw; padding: 3.2cqw 3.6cqw 3.2cqw 3.6cqw; opacity: 0;
+            box-shadow: var(--h-shadow, 0 2cqh 5cqh rgba(0,0,0,.28)); }
+          .hp-light { background: #FFFFFF; color: #14161A; }
+          .hp-dark { background: #1B1D22; color: #F2F2F0; }
+          .hp-label { font-family: var(--h-font-mono, 'JetBrains Mono', ui-monospace, monospace); font-size: max(28px, 2.6cqw); letter-spacing: 0.14em; opacity: 0.55; margin-bottom: 1.6cqw; }
+          .hp-row { display: flex; align-items: flex-end; gap: 2.4cqw; }
+          .hp-text { flex: 1; font-family: var(--h-font-text, Inter, system-ui, sans-serif); font-weight: 500; font-size: 4.1cqw; line-height: 1.32; min-height: 5.4cqw; }
+          .hp-ch { opacity: 0; }
+          .hp-caret { display: inline-block; width: 0.35cqw; height: 4.4cqw; margin-left: 0.2cqw; vertical-align: -0.6cqw; background: currentColor; opacity: 0; }
+          .hp-send { flex: none; width: 7.4cqw; height: 7.4cqw; border-radius: 50%; display: grid; place-items: center; color: #fff; font-family: var(--h-font-text, Inter, sans-serif); font-weight: 800; font-size: 3.4cqw; }
+        </style>
+        <div id="house-prompt-card-clip" class="hp-clip clip" data-start="0" data-duration="5" data-track-index="0">
+          <div class="hp-card">
+            <div class="hp-label"></div>
+            <div class="hp-row">
+              <div class="hp-text"></div>
+              <div class="hp-send">&#8593;</div>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+        <script>
+          (function () {
+            "use strict";
+            var root = document.getElementById("root");
+            var card = root.querySelector(".hp-card"), labelEl = root.querySelector(".hp-label");
+            var textEl = root.querySelector(".hp-text"), send = root.querySelector(".hp-send");
+            var v = window.__hyperframes && window.__hyperframes.getVariables ? window.__hyperframes.getVariables() : {};
+            var n = function (x, d) { x = Number(x); return Number.isFinite(x) ? x : d; };
+            var label = v.label == null ? "TO CLAUDE" : String(v.label);
+            var text = v.text == null ? "Cut every pause over 0.3 s and keep the last clean take of each line." : String(v.text);
+            var cps = Math.max(5, n(v.cps, 18)), delay = Math.max(0, n(v.delay, 0.3));
+            var sent = !(v.sent === false || v.sent === "false");
+            var css = getComputedStyle(document.documentElement);
+            var accent = v.accent || css.getPropertyValue("--h-accent").trim() || "#C5A759";
+            card.classList.add(v.theme === "dark" ? "hp-dark" : "hp-light");
+            send.style.background = accent;
+            labelEl.textContent = label;
+            var chars = Array.from(text).map(function (c) {
+              var s = document.createElement("span"); s.className = "hp-ch"; s.textContent = c; textEl.appendChild(s); return s;
+            });
+            var caret = document.createElement("span"); caret.className = "hp-caret"; textEl.appendChild(caret);
+
+            var F = 1 / 30, D = Math.max(1, parseFloat(root.dataset.duration || "5"));
+            var tl = gsap.timeline({ paused: true });
+            tl.fromTo(card, { opacity: 0, y: "-3cqh" }, { opacity: 1, y: 0, duration: 3 * F, ease: "power2.out" }, 0);
+            tl.set(caret, { opacity: 1 }, 3 * F);
+            chars.forEach(function (s, i) { tl.set(s, { opacity: 1 }, delay + i / cps); });
+            var done = delay + chars.length / cps;
+            if (sent) {
+              tl.set(caret, { opacity: 0 }, done + 0.15);
+              tl.set(labelEl, { textContent: "• SENT" }, done + 0.25);
+              tl.to(textEl, { opacity: 0.5, duration: 4 * F, ease: "power2.out" }, done + 0.25);
+              tl.fromTo(send, { scale: 1 }, { scale: 0.86, duration: 2 * F, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, done + 0.2);
+            }
+            tl.to(card, { opacity: 0, scale: 0.92, duration: 5 * F, ease: "power3.in" }, Math.max(done + 0.6, D - 5 * F));
+            tl.seek(0);
+            window.__timelines = window.__timelines || {};
+            window.__timelines["house-prompt-card"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<!--
+  house-lower-third: studio house component (identity)
+
+  Name and role in the house type system: an accent rule draws on (6 frames), the name rises out of a mask
+  (8 frames, power3.out), the role follows 3 frames later; it holds still and leaves in 4 frames. Works in 9:16 and 16:9.
+
+  Variables:
+    - name (string), role (string).
+    - align (left | center, default left). y (number, % of height, default 62 for 9:16; use ~78 for 16:9).
+    - accent (color), ink (color).
+
+  Mount: data-composition-id="house-lower-third" data-composition-src="compositions/components/house-lower-third/house-lower-third.html"
+         style="position:absolute;inset:0"
+-->
+<html
+  lang="en"
+  data-composition-id="house-lower-third"
+  data-composition-duration="4"
+  data-composition-variables='[
+    { "id": "name", "type": "string", "role": "content", "label": "Name", "default": "Name Surname" },
+    { "id": "role", "type": "string", "role": "content", "label": "Role", "default": "Role, Company" },
+    { "id": "align", "type": "enum", "role": "style", "label": "Align", "default": "left", "options": [{ "value": "left", "label": "Left" }, { "value": "center", "label": "Centre" }] },
+    { "id": "y", "type": "number", "role": "style", "label": "y (%)", "default": 62, "min": 5, "max": 95 },
+    { "id": "accent", "type": "color", "role": "style", "label": "Accent", "default": "" },
+    { "id": "ink", "type": "color", "role": "style", "label": "Ink", "default": "" }
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <title>House lower third</title>
+  </head>
+  <body>
+    <template>
+      <div id="root" data-composition-id="house-lower-third" data-duration="4" data-fps="30">
+        <style>
+          #root { position: absolute; inset: 0; overflow: hidden; container-type: size; pointer-events: none; }
+          .lt-clip { position: absolute; inset: 0; }
+          .lt-box { position: absolute; left: 7cqw; right: 7cqw; display: flex; flex-direction: column; gap: 1.2cqh; }
+          .lt-center { align-items: center; text-align: center; }
+          .lt-rule { width: 12cqw; height: max(4px, 0.5cqh); border-radius: 1cqw; transform-origin: 0 50%; }
+          .lt-center .lt-rule { transform-origin: 50% 50%; }
+          .lt-mask { overflow: hidden; padding-bottom: 0.4cqh; }
+          .lt-name { display: inline-block; font-family: var(--h-font-display, Inter, system-ui, sans-serif); font-weight: 800; font-size: min(6.4cqw, 7.5cqh); letter-spacing: -0.02em; line-height: 1.02; }
+          .lt-role { display: inline-block; font-family: var(--h-font-text, Inter, system-ui, sans-serif); font-weight: 500; font-size: min(3.4cqw, 4cqh); opacity: 0.75; }
+        </style>
+        <div id="house-lower-third-clip" class="lt-clip clip" data-start="0" data-duration="4" data-track-index="0">
+          <div class="lt-box">
+            <div class="lt-rule"></div>
+            <div class="lt-mask"><span class="lt-name"></span></div>
+            <div class="lt-mask"><span class="lt-role"></span></div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+        <script>
+          (function () {
+            "use strict";
+            var root = document.getElementById("root");
+            var box = root.querySelector(".lt-box"), rule = root.querySelector(".lt-rule");
+            var nameEl = root.querySelector(".lt-name"), roleEl = root.querySelector(".lt-role");
+            var v = window.__hyperframes && window.__hyperframes.getVariables ? window.__hyperframes.getVariables() : {};
+            var css = getComputedStyle(document.documentElement);
+            var accent = v.accent || css.getPropertyValue("--h-accent").trim() || "#C5A759";
+            var ink = v.ink || css.getPropertyValue("--h-ink").trim() || "#F5F3EE";
+            var y = Number.isFinite(Number(v.y)) ? Number(v.y) : 62;
+            nameEl.textContent = v.name == null ? "Name Surname" : String(v.name);
+            roleEl.textContent = v.role == null ? "Role, Company" : String(v.role);
+            if (v.align === "center") box.classList.add("lt-center");
+            box.style.top = y + "cqh";
+            rule.style.background = accent; nameEl.style.color = ink; roleEl.style.color = ink;
+
+            var F = 1 / 30, D = Math.max(1, parseFloat(root.dataset.duration || "4"));
+            var tl = gsap.timeline({ paused: true });
+            tl.fromTo(rule, { scaleX: 0 }, { scaleX: 1, duration: 6 * F, ease: "power2.out" }, 0);
+            tl.fromTo(nameEl, { yPercent: 105 }, { yPercent: 0, duration: 8 * F, ease: "power3.out" }, 2 * F);
+            tl.fromTo(roleEl, { yPercent: 105 }, { yPercent: 0, duration: 8 * F, ease: "power3.out" }, 5 * F);
+            tl.to(box, { opacity: 0, y: "-1cqh", duration: 4 * F, ease: "power3.in" }, Math.max(0.6, D - 4 * F));
+            tl.seek(0);
+            window.__timelines = window.__timelines || {};
+            window.__timelines["house-lower-third"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+@font-face { font-family: 'Inter Tight'; src: url('assets/fonts/inter-tight-latin-wght-italic.woff2') format('woff2'); font-weight: 100 900; font-style: italic; font-display: block; }
+@font-face { font-family: 'Inter Tight'; src: url('assets/fonts/inter-tight-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'Instrument Serif'; src: url('assets/fonts/instrument-serif-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: 'Instrument Serif'; src: url('assets/fonts/instrument-serif-latin-400-italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: block; }
+
+/* House tokens for HyperFrames compositions. Paste into the root index.html style block (or link the file) and override per
+   video: one ground, one ink, one accent. House components read these with their own fallbacks.
+   Fonts: Inter, Playfair Display, JetBrains Mono, Oswald are bundled; for library fonts run
+   `studio fonts add <hf> "Inter Tight" "Instrument Serif"` and paste the printed @font-face block. */
+:root {
+  --h-ground: #163227;          /* 60%: background */
+  --h-card: #F5F3EE;            /* 30%: cards and plates */
+  --h-ink: #F5F3EE;             /* text on the ground */
+  --h-ink-on-card: #14161A;     /* text on cards */
+  --h-muted: rgba(245, 243, 238, 0.55);
+  --h-accent: #C5A759;          /* 10%: the key word or number only */
+  --h-font-display: 'Inter Tight', Inter, system-ui, sans-serif;
+  --h-font-accent: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+  --h-font-text: Inter, system-ui, sans-serif;
+  --h-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --h-radius: 2.2cqw;
+  --h-shadow: 0 0.3cqh 0.8cqh rgba(0, 0, 0, 0.18), 0 2cqh 5cqh rgba(0, 0, 0, 0.28);
+}
+/* Safe zone on 1080x1920 (house): top 220, bottom 450, sides 35, right 100 from two-thirds down. */
+
+      :root { --brand: #C5A759; --accent: #C5A759; --accent-2: #8FB9A8; --fg: #F5F3EE; --font-display: 'Inter Tight', Inter, sans-serif; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #121417; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      #ground { position: absolute; inset: 0; background: radial-gradient(120% 80% at 50% 40%, #1d2026 0%, #121417 70%); }
+      .lbl { position: absolute; left: 48px; right: 48px; top: 96px; color: #F5F3EE; font-family: Inter, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.01em; z-index: 200; }
+      .lbl-n { color: #C5A759; margin-right: 10px; }
+      .lbl-src { display: block; margin-top: 8px; font-weight: 500; font-size: 28px; opacity: 0.55; letter-spacing: 0.02em; }
+      .card { position: absolute; inset: 0; display: grid; place-items: center; z-index: 150; }
+      .card-in { text-align: center; color: #F5F3EE; }
+      .card .k { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 120px; line-height: 1; color: #C5A759; }
+      .card .s { margin-top: 28px; font-family: Inter, sans-serif; font-weight: 500; font-size: 30px; opacity: 0.7; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="74.7" data-width="1080" data-height="1920">
+      <div id="ground"></div>
+      <div id="title" class="clip card" data-start="0" data-duration="2.5" data-track-index="1"><div class="card-in"><div class="k">Motion Lookbook v1</div><div class="s">Studio components rendered on this PC · Ryzen 5 5600G, Radeon iGPU</div></div></div>
+      <div id="lbl-01" class="clip lbl" data-start="2.5" data-duration="3.5" data-track-index="20"><span class="lbl-n">01</span> Kinetic type <span class="lbl-src">per-word-rise · registry</span></div>
+      <div id="lbl-02" class="clip lbl" data-start="6" data-duration="3.5" data-track-index="20"><span class="lbl-n">02</span> Headline slam <span class="lbl-src">headline-slam · registry · has a 3-frame shake: off-style for house</span></div>
+      <div id="lbl-03" class="clip lbl" data-start="9.5" data-duration="3" data-track-index="20"><span class="lbl-n">03</span> Giant word <span class="lbl-src">house-giant-word · house</span></div>
+      <div id="lbl-04" class="clip lbl" data-start="12.5" data-duration="3.5" data-track-index="20"><span class="lbl-n">04</span> Stat count-up <span class="lbl-src">house-stat · house</span></div>
+      <div id="lbl-05" class="clip lbl" data-start="16" data-duration="3" data-track-index="20"><span class="lbl-n">05</span> Count-up <span class="lbl-src">count-up · registry</span></div>
+      <div id="lbl-06" class="clip lbl" data-start="19" data-duration="3.5" data-track-index="20"><span class="lbl-n">06</span> Mask reveal <span class="lbl-src">svg-mask-reveal · registry</span></div>
+      <div id="lbl-07" class="clip lbl" data-start="22.5" data-duration="4" data-track-index="20"><span class="lbl-n">07</span> Lower third <span class="lbl-src">house-lower-third · house</span></div>
+      <div id="lbl-08" class="clip lbl" data-start="26.5" data-duration="4" data-track-index="20"><span class="lbl-n">08</span> Source card <span class="lbl-src">house-source-card · house</span></div>
+      <div id="lbl-09" class="clip lbl" data-start="30.5" data-duration="5" data-track-index="20"><span class="lbl-n">09</span> Prompt card <span class="lbl-src">house-prompt-card · house</span></div>
+      <div id="lbl-10" class="clip lbl" data-start="35.5" data-duration="4" data-track-index="20"><span class="lbl-n">10</span> Camera push <span class="lbl-src">push-in · registry</span></div>
+      <div id="lbl-11" class="clip lbl" data-start="39.5" data-duration="1.2" data-track-index="20"><span class="lbl-n">11</span> Whip transition <span class="lbl-src">whip-pan-cut · registry</span></div>
+      <div id="lbl-12" class="clip lbl" data-start="40.7" data-duration="4" data-track-index="20"><span class="lbl-n">12</span> Tracked callout <span class="lbl-src">house-track-callout · house</span></div>
+      <div id="lbl-13" class="clip lbl" data-start="44.7" data-duration="4" data-track-index="20"><span class="lbl-n">13</span> Captions on WebGPU <span class="lbl-src">house-captions · house</span></div>
+      <div id="lbl-14" class="clip lbl" data-start="48.7" data-duration="5" data-track-index="20"><span class="lbl-n">14</span> Device mockup <span class="lbl-src">device-frame-stage · registry</span></div>
+      <div id="lbl-15" class="clip lbl" data-start="53.7" data-duration="4" data-track-index="20"><span class="lbl-n">15</span> Lower third (registry) <span class="lbl-src">lt-mask-reveal · registry</span></div>
+      <div id="lbl-16" class="clip lbl" data-start="57.7" data-duration="5" data-track-index="20"><span class="lbl-n">16</span> Data chart <span class="lbl-src">data-chart · registry</span></div>
+      <div id="lbl-17" class="clip lbl" data-start="62.7" data-duration="5" data-track-index="20"><span class="lbl-n">17</span> 3D type (Three.js, WebGL) <span class="lbl-src">extruded-logo · registry</span></div>
+      <div id="lbl-18" class="clip lbl" data-start="67.7" data-duration="5" data-track-index="20"><span class="lbl-n">18</span> Liquid glass (WebGPU) <span class="lbl-src">liquid-glass-notification · registry</span></div>
+      <div id="end" class="clip card" data-start="72.7" data-duration="2" data-track-index="1"><div class="card-in"><div class="k">End of Lookbook v1</div><div class="s">House components: studio motion list · Registry: npx hyperframes catalog</div></div></div>
+      <div id="per-word-rise" data-composition-id="per-word-rise" data-composition-src="compositions/components/per-word-rise.html" data-start="2.5" data-duration="3.5" data-track-index="2" data-track-kind="graphics" data-variable-values='{"text":"THE PICTURE SAYS WHAT THE VOICE SAYS","accent":"green"}' style="position:absolute;inset:0;z-index:3"></div>
+      <div id="headline-slam" data-composition-id="headline-slam" data-composition-src="compositions/components/headline-slam.html" data-start="6" data-duration="3.5" data-track-index="3" data-track-kind="graphics" data-variable-values='{"text":"Intent beats volume","accent_word_index":0,"accent":"green"}' style="position:absolute;inset:0;z-index:4"></div>
+      <div id="house-giant-word" data-composition-id="house-giant-word" data-composition-src="compositions/components/house-giant-word/house-giant-word.html" data-start="9.5" data-duration="3" data-track-index="4" data-track-kind="graphics" data-variable-values='{"text":"DEAD.","face":"serif-italic","size":34,"y":30,"ground":"#163227"}' style="position:absolute;inset:0;z-index:5"></div>
+      <div id="house-stat" data-composition-id="house-stat" data-composition-src="compositions/components/house-stat/house-stat.html" data-start="12.5" data-duration="3.5" data-track-index="5" data-track-kind="graphics" data-variable-values='{"label":"CREDIT LIMIT","from":0,"to":10000,"prefix":"$","suffix":"","source":"Example values"}' style="position:absolute;left:0;top:560px;width:1080px;height:800px;z-index:6"></div>
+      <div id="count-up" data-composition-id="count-up" data-composition-src="compositions/components/count-up.html" data-start="16" data-duration="3" data-track-index="6" data-track-kind="graphics" data-variable-values='{"start":0,"end":90,"suffix":"%","accent":"green"}' style="position:absolute;inset:0;z-index:7"></div>
+      <div id="svg-mask-reveal" data-composition-id="svg-mask-reveal" data-composition-src="compositions/components/svg-mask-reveal.html" data-start="19" data-duration="3.5" data-track-index="7" data-track-kind="graphics" data-variable-values='{"text":"REVEAL"}' style="position:absolute;inset:0;z-index:8"></div>
+      <div id="house-lower-third" data-composition-id="house-lower-third" data-composition-src="compositions/components/house-lower-third/house-lower-third.html" data-start="22.5" data-duration="4" data-track-index="8" data-track-kind="graphics" data-variable-values='{"name":"Name Surname","role":"Role, Company"}' style="position:absolute;inset:0;z-index:9"></div>
+      <div id="house-source-card" data-composition-id="house-source-card" data-composition-src="compositions/components/house-source-card/house-source-card.html" data-start="26.5" data-duration="4" data-track-index="9" data-track-kind="graphics" data-variable-values='{}' style="position:absolute;left:0;top:560px;width:1080px;height:800px;z-index:10"></div>
+      <div id="house-prompt-card" data-composition-id="house-prompt-card" data-composition-src="compositions/components/house-prompt-card/house-prompt-card.html" data-start="30.5" data-duration="5" data-track-index="10" data-track-kind="graphics" data-variable-values='{}' style="position:absolute;left:0;top:560px;width:1080px;height:800px;z-index:11"></div>
+      <div id="push-in" data-composition-id="push-in" data-composition-src="compositions/components/push-in.html" data-start="35.5" data-duration="4" data-track-index="11" data-track-kind="graphics" data-variable-values='{"text":"Focus","intensity":"standard"}' style="position:absolute;inset:0;z-index:12"></div>
+      <div id="whip-pan-cut" data-composition-id="whip-pan-cut" data-composition-src="compositions/components/whip-pan-cut.html" data-start="39.5" data-duration="1.2" data-track-index="12" data-track-kind="graphics" data-variable-values='{"direction":"left","accent":"green"}' style="position:absolute;inset:0;z-index:13"></div>
+      <video id="vid-12" class="clip" src="assets/moving-target.mp4" muted playsinline data-start="40.7" data-duration="4" data-track-index="13" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;z-index:14"></video>
+      <div id="house-track-callout" data-composition-id="house-track-callout" data-composition-src="compositions/components/house-track-callout/house-track-callout.html" data-start="40.7" data-duration="4" data-track-index="14" data-track-kind="graphics" data-variable-values='{"track":"[{\"t\":0,\"x\":0.1426,\"y\":0.3712,\"w\":0.1667,\"h\":0.0938},{\"t\":0.1,\"x\":0.152,\"y\":0.3853,\"w\":0.1659,\"h\":0.0933},{\"t\":0.2,\"x\":0.1656,\"y\":0.4062,\"w\":0.1667,\"h\":0.0938},{\"t\":0.3,\"x\":0.1798,\"y\":0.4261,\"w\":0.1667,\"h\":0.0938},{\"t\":0.4,\"x\":0.1943,\"y\":0.4445,\"w\":0.1667,\"h\":0.0938},{\"t\":0.5,\"x\":0.208,\"y\":0.4607,\"w\":0.1659,\"h\":0.0933},{\"t\":0.6,\"x\":0.2215,\"y\":0.4742,\"w\":0.1659,\"h\":0.0933},{\"t\":0.7,\"x\":0.2359,\"y\":0.4855,\"w\":0.1633,\"h\":0.0919},{\"t\":0.8,\"x\":0.2511,\"y\":0.494,\"w\":0.1602,\"h\":0.0901},{\"t\":0.9,\"x\":0.2648,\"y\":0.4981,\"w\":0.1613,\"h\":0.0907},{\"t\":1,\"x\":0.2781,\"y\":0.4993,\"w\":0.1624,\"h\":0.0914},{\"t\":1.1,\"x\":0.2913,\"y\":0.4968,\"w\":0.1637,\"h\":0.0921},{\"t\":1.2,\"x\":0.3054,\"y\":0.491,\"w\":0.1637,\"h\":0.0921},{\"t\":1.3,\"x\":0.3194,\"y\":0.482,\"w\":0.1624,\"h\":0.0914},{\"t\":1.4,\"x\":0.3333,\"y\":0.4701,\"w\":0.1607,\"h\":0.0904},{\"t\":1.5,\"x\":0.3474,\"y\":0.4554,\"w\":0.1602,\"h\":0.0901},{\"t\":1.6,\"x\":0.3613,\"y\":0.4387,\"w\":0.1602,\"h\":0.0901},{\"t\":1.7,\"x\":0.375,\"y\":0.4198,\"w\":0.1602,\"h\":0.0901},{\"t\":1.8,\"x\":0.3889,\"y\":0.3995,\"w\":0.1602,\"h\":0.0901},{\"t\":1.9,\"x\":0.402,\"y\":0.3786,\"w\":0.1619,\"h\":0.091},{\"t\":2,\"x\":0.4157,\"y\":0.3568,\"w\":0.163,\"h\":0.0917},{\"t\":2.1,\"x\":0.4294,\"y\":0.3351,\"w\":0.163,\"h\":0.0917},{\"t\":2.2,\"x\":0.4441,\"y\":0.3146,\"w\":0.1619,\"h\":0.091},{\"t\":2.3,\"x\":0.458,\"y\":0.2954,\"w\":0.1602,\"h\":0.0901},{\"t\":2.4,\"x\":0.4717,\"y\":0.2778,\"w\":0.1602,\"h\":0.0901},{\"t\":2.5,\"x\":0.4863,\"y\":0.2624,\"w\":0.1602,\"h\":0.0901},{\"t\":2.6,\"x\":0.5004,\"y\":0.2495,\"w\":0.1596,\"h\":0.0898},{\"t\":2.7,\"x\":0.5143,\"y\":0.24,\"w\":0.158,\"h\":0.0889},{\"t\":2.8,\"x\":0.528,\"y\":0.2339,\"w\":0.1574,\"h\":0.0885},{\"t\":2.9,\"x\":0.5415,\"y\":0.2303,\"w\":0.1596,\"h\":0.0898},{\"t\":3,\"x\":0.5548,\"y\":0.2301,\"w\":0.1607,\"h\":0.0904},{\"t\":3.1,\"x\":0.5691,\"y\":0.2335,\"w\":0.1591,\"h\":0.0895},{\"t\":3.2,\"x\":0.5835,\"y\":0.2405,\"w\":0.1574,\"h\":0.0885},{\"t\":3.3,\"x\":0.5972,\"y\":0.2508,\"w\":0.1574,\"h\":0.0885},{\"t\":3.4,\"x\":0.6107,\"y\":0.264,\"w\":0.1574,\"h\":0.0885},{\"t\":3.5,\"x\":0.6246,\"y\":0.2796,\"w\":0.158,\"h\":0.0889},{\"t\":3.6,\"x\":0.6385,\"y\":0.2976,\"w\":0.1585,\"h\":0.0892},{\"t\":3.7,\"x\":0.6526,\"y\":0.317,\"w\":0.1591,\"h\":0.0895},{\"t\":3.8,\"x\":0.667,\"y\":0.3373,\"w\":0.1602,\"h\":0.0901},{\"t\":3.9,\"x\":0.6782,\"y\":0.3551,\"w\":0.1602,\"h\":0.0901},{\"t\":3.933,\"x\":0.6809,\"y\":0.3585,\"w\":0.1602,\"h\":0.0901}]","label":"Tracked by studio track"}' style="position:absolute;inset:0;z-index:15"></div>
+      <div id="mesh-gradient" data-composition-id="mesh-gradient" data-composition-src="compositions/mesh-gradient.html" data-start="44.7" data-duration="4" data-track-index="15" data-width="1920" data-height="1080" data-no-timeline style="position:absolute;left:-1167px;top:0;width:1920px;height:1080px;transform:scale(1.7778);transform-origin:0 0;z-index:16"></div>
+      <div id="house-captions" data-composition-id="house-captions" data-composition-src="compositions/components/house-captions/house-captions.html" data-start="44.7" data-duration="4" data-track-index="16" data-track-kind="graphics" data-variable-values='{"words":"[{\"text\":\"Captions\",\"start\":0.25,\"end\":0.51},{\"text\":\"land\",\"start\":0.55,\"end\":0.81},{\"text\":\"on\",\"start\":0.85,\"end\":1.11},{\"text\":\"the\",\"start\":1.15,\"end\":1.41},{\"text\":\"word,\",\"start\":1.45,\"end\":1.71},{\"text\":\"in\",\"start\":1.75,\"end\":2.01},{\"text\":\"the\",\"start\":2.05,\"end\":2.31},{\"text\":\"accent,\",\"start\":2.35,\"end\":2.61},{\"text\":\"above\",\"start\":2.65,\"end\":2.91},{\"text\":\"the\",\"start\":2.95,\"end\":3.21},{\"text\":\"chin\",\"start\":3.25,\"end\":3.51},{\"text\":\"line.\",\"start\":3.55,\"end\":3.81}]","y":66}' style="position:absolute;inset:0;z-index:17"></div>
+      <div id="device-frame-stage" data-composition-id="device-frame-stage" data-composition-src="compositions/components/device-frame-stage.html" data-start="48.7" data-duration="5" data-track-index="17" data-track-kind="graphics" data-width="1920" data-height="1080" data-variable-values='{"device":"phone","cutout":"island","body":"graphite"}' style="position:absolute;left:0;top:656px;width:1920px;height:1080px;transform:scale(0.5625);transform-origin:0 0;z-index:18"></div>
+      <div id="lt-mask-reveal" data-composition-id="lt-mask-reveal" data-composition-src="compositions/lt-mask-reveal.html" data-start="53.7" data-duration="4" data-track-index="18" data-track-kind="graphics" data-width="1920" data-height="1080" data-variable-values='{}' style="position:absolute;left:0;top:656px;width:1920px;height:1080px;transform:scale(0.5625);transform-origin:0 0;z-index:19"></div>
+      <div id="data-chart" data-composition-id="data-chart" data-composition-src="compositions/data-chart.html" data-start="57.7" data-duration="5" data-track-index="19" data-track-kind="graphics" data-width="1920" data-height="1080" data-variable-values='{}' style="position:absolute;left:0;top:656px;width:1920px;height:1080px;transform:scale(0.5625);transform-origin:0 0;z-index:20"></div>
+      <div id="extruded-logo" data-composition-id="extruded-logo" data-composition-src="compositions/extruded-logo.html" data-start="62.7" data-duration="5" data-track-index="20" data-track-kind="graphics" data-width="1920" data-height="1080" data-variable-values='{"text":"STUDIO","tagline":"Motion Lookbook","finish":"gold"}' style="position:absolute;left:0;top:656px;width:1920px;height:1080px;transform:scale(0.5625);transform-origin:0 0;z-index:21"></div>
+      <div id="liquid-glass-notification" data-composition-id="liquid-glass-notification" data-composition-src="compositions/liquid-glass-notification.html" data-start="67.7" data-duration="5" data-track-index="21" data-track-kind="graphics" data-width="1920" data-height="1080" data-variable-values='{}' style="position:absolute;left:0;top:656px;width:1920px;height:1080px;transform:scale(0.5625);transform-origin:0 0;z-index:22"></div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#end .card-in", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.3, ease: "expo.out" }, 72.7);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

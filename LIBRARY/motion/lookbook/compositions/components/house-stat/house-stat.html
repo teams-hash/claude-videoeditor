@@ -1,0 +1,111 @@
+<!doctype html>
+<!--
+  house-stat: studio house component (proof / numbers)
+
+  A stat card: small tracked label, a number that counts up on an ease-out (one value per frame, set directly so
+  any seek shows the same digit), tabular figures, a single 4% landing pulse, and an optional source line.
+  Matches house recipe 3 (count-up 30-36 frames, power2.out).
+
+  Variables:
+    - label (string): small caps label above the number, e.g. "CREDIT UTILIZATION".
+    - from / to (number): start and end values. decimals (number, default 0).
+    - prefix / suffix (string): e.g. "$", "%", "x".
+    - source (string): optional line under the number, e.g. "Experian, Aug 2024".
+    - count (number, default 1.1): count duration in seconds; delay (number, default 0.15): seconds before it starts.
+    - card (boolean, default true): rounded cream card; false = number on the ground.
+    - accent (color): number colour (default the house accent).
+
+  Mount: data-composition-id="house-stat" data-composition-src="compositions/components/house-stat/house-stat.html"
+         style="position:absolute;left:0;top:22%;width:100%;height:30%" (any box: it scales with the box).
+-->
+<html
+  lang="en"
+  data-composition-id="house-stat"
+  data-composition-duration="3.5"
+  data-composition-variables='[
+    { "id": "label", "type": "string", "role": "content", "label": "Label", "default": "AVERAGE SCORE DROP" },
+    { "id": "from", "type": "number", "role": "content", "label": "From", "default": 0 },
+    { "id": "to", "type": "number", "role": "content", "label": "To", "default": 100 },
+    { "id": "decimals", "type": "number", "role": "content", "label": "Decimals", "default": 0, "min": 0, "max": 3 },
+    { "id": "prefix", "type": "string", "role": "content", "label": "Prefix", "default": "" },
+    { "id": "suffix", "type": "string", "role": "content", "label": "Suffix", "default": " pts" },
+    { "id": "source", "type": "string", "role": "content", "label": "Source", "default": "" },
+    { "id": "count", "type": "number", "role": "timing", "label": "Count (s)", "default": 1.1 },
+    { "id": "delay", "type": "number", "role": "timing", "label": "Delay (s)", "default": 0.15 },
+    { "id": "card", "type": "boolean", "role": "style", "label": "Card", "default": true },
+    { "id": "accent", "type": "color", "role": "style", "label": "Accent", "default": "" }
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <title>House stat</title>
+  </head>
+  <body>
+    <template>
+      <div id="root" data-composition-id="house-stat" data-duration="3.5" data-fps="30">
+        <style>
+          #root { position: absolute; inset: 0; overflow: hidden; container-type: size; pointer-events: none; }
+          .hs2-clip { position: absolute; inset: 0; display: grid; place-items: center; }
+          .hs2-card {
+            display: flex; flex-direction: column; align-items: center; gap: 2.2cqh;
+            padding: 6cqh 8cqw; border-radius: var(--h-radius, 2.2cqw); opacity: 0;
+          }
+          .hs2-card.hs2-on { background: var(--h-card, #F5F3EE); box-shadow: var(--h-shadow, 0 2cqh 5cqh rgba(0,0,0,.28)); }
+          .hs2-label { font-family: var(--h-font-text, Inter, system-ui, sans-serif); font-weight: 700; font-size: 3.1cqw; letter-spacing: 0.12em; text-transform: uppercase; }
+          .hs2-num { font-family: var(--h-font-display, Inter, system-ui, sans-serif); font-weight: 800; font-size: 17cqw; line-height: 0.9; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+          .hs2-src { font-family: var(--h-font-text, Inter, system-ui, sans-serif); font-weight: 500; font-size: max(28px, 2.6cqw); opacity: 0.6; }
+        </style>
+        <div id="house-stat-clip" class="hs2-clip clip" data-start="0" data-duration="3.5" data-track-index="0">
+          <div class="hs2-card">
+            <div class="hs2-label"></div>
+            <div class="hs2-num"></div>
+            <div class="hs2-src"></div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+        <script>
+          (function () {
+            "use strict";
+            var root = document.getElementById("root");
+            var card = root.querySelector(".hs2-card"), label = root.querySelector(".hs2-label");
+            var num = root.querySelector(".hs2-num"), src = root.querySelector(".hs2-src");
+            var v = window.__hyperframes && window.__hyperframes.getVariables ? window.__hyperframes.getVariables() : {};
+            var n = function (x, d) { x = Number(x); return Number.isFinite(x) ? x : d; };
+            var from = n(v.from, 0), to = n(v.to, 100), dec = Math.max(0, Math.min(3, n(v.decimals, 0)));
+            var prefix = v.prefix == null ? "" : String(v.prefix), suffix = v.suffix == null ? " pts" : String(v.suffix);
+            var countDur = Math.max(0.3, n(v.count, 1.1)), delay = Math.max(0, n(v.delay, 0.15));
+            var css = getComputedStyle(document.documentElement);
+            var accent = v.accent || css.getPropertyValue("--h-accent").trim() || "#C5A759";
+            var onCard = !(v.card === false || v.card === "false");
+            card.classList.toggle("hs2-on", onCard);
+            var inkVar = onCard ? "--h-ink-on-card" : "--h-ink";
+            var ink = css.getPropertyValue(inkVar).trim() || (onCard ? "#14161A" : "#F5F3EE");
+            label.textContent = v.label == null ? "AVERAGE SCORE DROP" : String(v.label);
+            label.style.color = ink; src.style.color = ink; num.style.color = accent;
+            src.textContent = v.source ? String(v.source) : "";
+            if (!v.source) src.style.display = "none";
+            var fmt = function (x) { return prefix + x.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec }) + suffix; };
+            num.textContent = fmt(from);
+
+            var F = 1 / 30, D = Math.max(0.5, parseFloat(root.dataset.duration || "3.5"));
+            var tl = gsap.timeline({ paused: true });
+            tl.fromTo(card, { opacity: 0, y: "3cqh", scale: 0.98 }, { opacity: 1, y: 0, scale: 1, duration: 6 * F, ease: "expo.out" }, 0);
+            // One value per frame on a power2.out curve, set directly so seeks are exact.
+            var frames = Math.round(countDur * 30);
+            for (var i = 0; i <= frames; i++) {
+              var p = i / frames, e = 1 - (1 - p) * (1 - p);
+              var val = from + (to - from) * e;
+              var shown = Math.round(val * Math.pow(10, dec)) / Math.pow(10, dec);
+              tl.set(num, { textContent: fmt(i === frames ? to : shown) }, delay + i * F);
+            }
+            tl.fromTo(num, { scale: 1 }, { scale: 1.04, duration: 2 * F, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, delay + countDur);
+            tl.to(card, { opacity: 0, y: "-2cqh", duration: 4 * F, ease: "power3.in" }, Math.max(delay + countDur + 0.3, D - 4 * F));
+            tl.seek(0);
+            window.__timelines = window.__timelines || {};
+            window.__timelines["house-stat"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

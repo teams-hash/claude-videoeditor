@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PROJECT_DIR}/tools/hooks/auto-update.mjs\"", "timeout": 45 },
+          { "type": "command", "command": "node \"${CLAUDE_PROJECT_DIR}/tools/hooks/session-status.mjs\"", "timeout": 20 }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PROJECT_DIR}/tools/hooks/read-guard.mjs\"", "timeout": 10 }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|NotebookEdit|Bash|PowerShell",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PROJECT_DIR}/tools/hooks/protect-sources.mjs\"", "timeout": 10 }
+        ]
+      }
+    ]
+  }
+}

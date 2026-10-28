@@ -1,0 +1,48 @@
+{
+ "name": "house-prompt-card",
+ "summary": "with a blinking-free caret (it simply follows the text), and a round send button that turns into \"SENT\" at the end.",
+ "duration": 5,
+ "variables": [
+  {
+   "id": "label",
+   "type": "string",
+   "default": "TO CLAUDE"
+  },
+  {
+   "id": "text",
+   "type": "string",
+   "default": "Cut every pause over 0.3 s and keep the last clean take of each line."
+  },
+  {
+   "id": "cps",
+   "type": "number",
+   "default": 18
+  },
+  {
+   "id": "delay",
+   "type": "number",
+   "default": 0.3
+  },
+  {
+   "id": "sent",
+   "type": "boolean",
+   "default": true
+  },
+  {
+   "id": "theme",
+   "type": "enum",
+   "default": "light",
+   "options": [
+    "light",
+    "dark"
+   ]
+  },
+  {
+   "id": "accent",
+   "type": "color",
+   "default": ""
+  }
+ ],
+ "mount": "<div id=\"prompt-card-1\" data-composition-id=\"house-prompt-card\" data-composition-src=\"compositions/components/house-prompt-card/house-prompt-card.html\" data-start=\"0\" data-duration=\"5\" data-track-index=\"5\" data-variable-values='{}' style=\"position:absolute;inset:0\"></div>",
+ "notes": "Full usage in the comment header of the .html file."
+}

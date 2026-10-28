@@ -1,0 +1,45 @@
+{
+  "checked": "2026-10-28",
+  "note": "verified = taken from the platform's own help page that day; otherwise third-party sources that disagree, so limits only WARN. Re-check before relying on a hard limit.",
+  "platforms": {
+    "master": {
+      "label": "Archive master", "aspect": null, "width": null, "height": null,
+      "crf": 16, "maxrate": null, "audioKbps": 320, "gop": "2s", "lufs": -14, "maxSeconds": null, "maxBytes": null, "verified": true
+    },
+    "reels": {
+      "label": "Instagram Reels", "aspect": "9:16", "width": 1080, "height": 1920,
+      "crf": 17, "maxrate": "20M", "audioKbps": 320, "gop": "2s", "lufs": -14,
+      "maxSeconds": 1200, "recommendSeconds": 180, "maxBytes": null, "verified": false,
+      "sources": ["third-party: up to 20 min accepted; over 3 min not recommended to non-followers"]
+    },
+    "tiktok": {
+      "label": "TikTok", "aspect": "9:16", "width": 1080, "height": 1920,
+      "crf": 17, "maxrate": "20M", "audioKbps": 320, "gop": "2s", "lufs": -14,
+      "maxSeconds": 3600, "recommendSeconds": 600, "maxBytes": null, "verified": false,
+      "sources": ["third-party: 10 min in-app, up to 60 min uploaded; varies by account"]
+    },
+    "shorts": {
+      "label": "YouTube Shorts", "aspect": "9:16", "width": 1080, "height": 1920,
+      "crf": 17, "maxrate": "16M", "audioKbps": 384, "gop": "half", "lufs": -14,
+      "maxSeconds": 180, "maxBytes": null, "verified": false,
+      "sources": ["support.google.com/youtube/answer/1722171 (encoding, verified)", "third-party: Shorts up to 3 min since 2024-10-15"]
+    },
+    "youtube": {
+      "label": "YouTube", "aspect": "16:9", "width": 1920, "height": 1080,
+      "crf": 17, "maxrate": "16M", "audioKbps": 384, "gop": "half", "lufs": -14, "maxSeconds": null, "maxBytes": null, "verified": true,
+      "sources": ["support.google.com/youtube/answer/1722171: MP4 faststart, H.264 High, 2 B-frames, closed GOP of half the frame rate, CABAC, 4:2:0, AAC-LC 48 kHz 384 kbps stereo, 1080p30 8 Mbps / 1080p60 12 Mbps recommended"]
+    },
+    "linkedin": {
+      "label": "LinkedIn", "aspect": null, "width": null, "height": null,
+      "crf": 18, "maxrate": "12M", "audioKbps": 192, "gop": "2s", "lufs": -14,
+      "maxSeconds": 900, "recommendSeconds": 600, "maxBytes": 5368709120, "verified": false,
+      "sources": ["third-party: 3 s to 15 min from desktop (10 min mobile), 5 GB, aspect 1:2.4 to 2.4:1, 256x144 to 4096x2304"]
+    },
+    "x": {
+      "label": "X", "aspect": null, "width": null, "height": null,
+      "crf": 20, "maxrate": "8M", "audioKbps": 192, "gop": "2s", "lufs": -14,
+      "maxSeconds": 140, "maxBytes": 536870912, "maxLongEdge": 1920, "verified": false,
+      "sources": ["unverified: 2 min 20 s and 512 MB for most accounts; longer for paid tiers"]
+    }
+  }
+}

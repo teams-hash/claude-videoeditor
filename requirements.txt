@@ -1,0 +1,6 @@
+# Python media env (tools/py/venv): faces, tracking, shot detection, audio IO for the studio toolkit.
+# Python 3.12. Installed by the setup script; versions are the ones tested on the studio PC.
+numpy==2.5.4
+opencv-contrib-python-headless==5.0.0.93
+scenedetect==0.7.2
+soundfile==0.14.0

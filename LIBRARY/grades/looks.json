@@ -1,0 +1,55 @@
+{
+  "note": "Studio looks. 'color' is per-pixel (baked to cube/<id>.cube by studio grade bake); 'finish' is spatial (vignette, grain) and only applied by studio grade apply. Correct white balance and exposure first, then add a look at 60-100% strength.",
+  "looks": [
+    {
+      "id": "clean-neutral",
+      "name": "Clean neutral",
+      "use": "Default for talking heads and UI-heavy edits: gentle S-curve, true whites, +5% saturation",
+      "color": "curves=master='0/0 0.25/0.235 0.75/0.765 1/1',eq=saturation=1.05"
+    },
+    {
+      "id": "warm-premium",
+      "name": "Warm premium",
+      "use": "Founder / lifestyle talking heads: warmer mids and highlights, soft contrast, skin stays natural",
+      "color": "colorbalance=rm=0.025:bm=-0.02:rh=0.03:bh=-0.03,curves=master='0/0.01 0.3/0.29 0.7/0.72 1/0.99',eq=saturation=1.04"
+    },
+    {
+      "id": "teal-orange-light",
+      "name": "Teal & orange (light)",
+      "use": "Cinematic B-roll and promos: cool shadows, warm highlights, restrained so skin is not orange",
+      "color": "colorbalance=rs=-0.04:bs=0.05:rh=0.04:gh=0.01:bh=-0.035,curves=master='0/0 0.25/0.22 0.75/0.78 1/1',eq=saturation=1.03"
+    },
+    {
+      "id": "matte-film",
+      "name": "Matte film",
+      "use": "Editorial / documentary feel: lifted blacks, rolled-off highlights, slightly desaturated",
+      "color": "curves=master='0/0.06 0.5/0.5 0.92/0.9 1/0.94',eq=saturation=0.92",
+      "finish": "noise=alls=5:allf=t"
+    },
+    {
+      "id": "bright-airy",
+      "name": "Bright & airy",
+      "use": "Lifestyle, wellness, product on white: lifted mids, low contrast, cool-neutral",
+      "color": "curves=master='0/0.02 0.5/0.56 1/1',eq=contrast=0.97:saturation=1.02,colortemperature=temperature=7000:mix=0.25"
+    },
+    {
+      "id": "moody-contrast",
+      "name": "Moody contrast",
+      "use": "Serious claims, finance, night scenes: deeper shadows, desaturated, focus pulled to the centre",
+      "color": "curves=master='0/0 0.3/0.22 0.7/0.74 1/1',eq=saturation=0.88",
+      "finish": "vignette=angle=PI/5:mode=forward"
+    },
+    {
+      "id": "bw-editorial",
+      "name": "B&W editorial",
+      "use": "Pull quotes, flashbacks, 'before' halves of a before/after: punchy monochrome",
+      "color": "hue=s=0,curves=master='0/0.02 0.25/0.2 0.75/0.8 1/0.98'"
+    },
+    {
+      "id": "fix-green-cast",
+      "name": "Fix green cast",
+      "use": "Correction, not a look: green-lit studios and fluorescent rooms (e.g. the LGF studio). Apply before any look",
+      "color": "colorbalance=gs=-0.03:gm=-0.04:gh=-0.02:rm=0.01:bm=0.01"
+    }
+  ]
+}

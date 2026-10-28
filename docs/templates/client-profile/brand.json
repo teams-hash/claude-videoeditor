@@ -1,0 +1,28 @@
+{
+  "client": "CLIENT NAME",
+  "slug": "SLUG",
+  "colors": {
+    "primary": "#000000",
+    "accent": "#FFD400",
+    "text": "#FFFFFF",
+    "background": "#111111"
+  },
+  "fonts": {
+    "headline": "Montserrat",
+    "body": "Inter",
+    "captions": "Montserrat"
+  },
+  "logo": "DNMS Studio Assets/brand-kits/SLUG/logo.svg",
+  "captions": {
+    "case": "upper",
+    "maxLines": 2,
+    "maxCharsPerLine": 32,
+    "highlight": "accent",
+    "stroke": "#000000"
+  },
+  "lowerThird": {
+    "style": "house-lower-third",
+    "nameColor": "text",
+    "roleColor": "accent"
+  }
+}

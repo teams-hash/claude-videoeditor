@@ -1,0 +1,4 @@
+# Who must approve changes (enforced once branch protection requires code-owner review; docs/GOVERNANCE.md).
+# Add maintainers and client leads as they join, for example:
+#   /.claude/skills/client-evan-rugen-lgf/  @client-lead-username
+*   @teams-hash

@@ -1,0 +1,54 @@
+{
+ "name": "house-giant-word",
+ "summary": "Mount it UNDER the person's cut-out (lower z-index than the cut-out layer) for text behind the subject, or over",
+ "duration": 3,
+ "variables": [
+  {
+   "id": "text",
+   "type": "string",
+   "default": "DEAD."
+  },
+  {
+   "id": "face",
+   "type": "enum",
+   "default": "serif-italic",
+   "options": [
+    "sans",
+    "serif-italic"
+   ]
+  },
+  {
+   "id": "size",
+   "type": "number",
+   "default": 30
+  },
+  {
+   "id": "y",
+   "type": "number",
+   "default": 24
+  },
+  {
+   "id": "color",
+   "type": "color",
+   "default": ""
+  },
+  {
+   "id": "ground",
+   "type": "color",
+   "default": ""
+  },
+  {
+   "id": "entrance",
+   "type": "enum",
+   "default": "slam",
+   "options": [
+    "slam",
+    "rise",
+    "letters",
+    "blur"
+   ]
+  }
+ ],
+ "mount": "<div id=\"giant-word-1\" data-composition-id=\"house-giant-word\" data-composition-src=\"compositions/components/house-giant-word/house-giant-word.html\" data-start=\"0\" data-duration=\"3\" data-track-index=\"5\" data-variable-values='{}' style=\"position:absolute;inset:0\"></div>",
+ "notes": "Full usage in the comment header of the .html file."
+}

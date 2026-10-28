@@ -1,0 +1,43 @@
+{
+ "name": "house-lower-third",
+ "summary": "(8 frames, power3.out), the role follows 3 frames later; it holds still and leaves in 4 frames. Works in 9:16 and 16:9.",
+ "duration": 4,
+ "variables": [
+  {
+   "id": "name",
+   "type": "string",
+   "default": "Name Surname"
+  },
+  {
+   "id": "role",
+   "type": "string",
+   "default": "Role, Company"
+  },
+  {
+   "id": "align",
+   "type": "enum",
+   "default": "left",
+   "options": [
+    "left",
+    "center"
+   ]
+  },
+  {
+   "id": "y",
+   "type": "number",
+   "default": 62
+  },
+  {
+   "id": "accent",
+   "type": "color",
+   "default": ""
+  },
+  {
+   "id": "ink",
+   "type": "color",
+   "default": ""
+  }
+ ],
+ "mount": "<div id=\"lower-third-1\" data-composition-id=\"house-lower-third\" data-composition-src=\"compositions/components/house-lower-third/house-lower-third.html\" data-start=\"0\" data-duration=\"4\" data-track-index=\"5\" data-variable-values='{}' style=\"position:absolute;inset:0\"></div>",
+ "notes": "Full usage in the comment header of the .html file."
+}

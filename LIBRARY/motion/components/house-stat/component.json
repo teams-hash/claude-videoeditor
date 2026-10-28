@@ -1,0 +1,64 @@
+{
+ "name": "house-stat",
+ "summary": "A stat card: small tracked label, a number that counts up on an ease-out (one value per frame, set directly so any seek shows the same digit), tabular figures, a single 4% landing pulse, and an optional source line.",
+ "duration": 3.5,
+ "variables": [
+  {
+   "id": "label",
+   "type": "string",
+   "default": "AVERAGE SCORE DROP"
+  },
+  {
+   "id": "from",
+   "type": "number",
+   "default": 0
+  },
+  {
+   "id": "to",
+   "type": "number",
+   "default": 100
+  },
+  {
+   "id": "decimals",
+   "type": "number",
+   "default": 0
+  },
+  {
+   "id": "prefix",
+   "type": "string",
+   "default": ""
+  },
+  {
+   "id": "suffix",
+   "type": "string",
+   "default": " pts"
+  },
+  {
+   "id": "source",
+   "type": "string",
+   "default": ""
+  },
+  {
+   "id": "count",
+   "type": "number",
+   "default": 1.1
+  },
+  {
+   "id": "delay",
+   "type": "number",
+   "default": 0.15
+  },
+  {
+   "id": "card",
+   "type": "boolean",
+   "default": true
+  },
+  {
+   "id": "accent",
+   "type": "color",
+   "default": ""
+  }
+ ],
+ "mount": "<div id=\"stat-1\" data-composition-id=\"house-stat\" data-composition-src=\"compositions/components/house-stat/house-stat.html\" data-start=\"0\" data-duration=\"3.5\" data-track-index=\"5\" data-variable-values='{}' style=\"position:absolute;inset:0\"></div>",
+ "notes": "Full usage in the comment header of the .html file."
+}

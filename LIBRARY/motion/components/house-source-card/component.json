@@ -1,0 +1,53 @@
+{
+ "name": "house-source-card",
+ "summary": "A real-source card: publisher and date in small caps, the quoted line, and a highlighter sweep across the phrase that proves the point.",
+ "duration": 4,
+ "variables": [
+  {
+   "id": "publisher",
+   "type": "string",
+   "default": "PUBLISHER"
+  },
+  {
+   "id": "date",
+   "type": "string",
+   "default": "Date"
+  },
+  {
+   "id": "quote",
+   "type": "string",
+   "default": "Paste the exact sentence from the cited source here, then mark the phrase that proves the point."
+  },
+  {
+   "id": "highlight",
+   "type": "string",
+   "default": "the phrase that proves the point"
+  },
+  {
+   "id": "url",
+   "type": "string",
+   "default": "source.com"
+  },
+  {
+   "id": "mark_at",
+   "type": "number",
+   "default": 0.45
+  },
+  {
+   "id": "theme",
+   "type": "enum",
+   "default": "light",
+   "options": [
+    "light",
+    "dark"
+   ]
+  },
+  {
+   "id": "accent",
+   "type": "color",
+   "default": ""
+  }
+ ],
+ "mount": "<div id=\"source-card-1\" data-composition-id=\"house-source-card\" data-composition-src=\"compositions/components/house-source-card/house-source-card.html\" data-start=\"0\" data-duration=\"4\" data-track-index=\"5\" data-variable-values='{}' style=\"position:absolute;inset:0\"></div>",
+ "notes": "Full usage in the comment header of the .html file."
+}

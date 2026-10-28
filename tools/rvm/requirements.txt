@@ -1,0 +1,6 @@
+# Robust Video Matting env (tools/rvm/venv). Python 3.12.
+# Windows runs on any GPU through DirectML; macOS (Apple Silicon) and Linux run on the CPU.
+# onnxruntime 1.24.4 publishes no Intel-Mac wheel: there, use `studio matte --engine hf`.
+numpy==2.5.4
+onnxruntime-directml==1.24.4; sys_platform == "win32"
+onnxruntime==1.24.4; sys_platform != "win32"

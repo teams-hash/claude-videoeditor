@@ -1,0 +1,100 @@
+<!doctype html>
+<!--
+  house-source-card: studio house component (proof)
+
+  A real-source card: publisher and date in small caps, the quoted line, and a highlighter sweep across the phrase
+  that proves the point. Use only with real sources the edit cites (house rule: real proof only).
+
+  Variables:
+    - publisher (string), date (string), quote (string), highlight (string: exact substring of quote to mark),
+      url (string, optional footer).
+    - accent (color): highlighter colour (shown at 45% under the text). theme (light | dark).
+    - mark_at (number, default 0.45): seconds after the card lands when the highlighter sweeps.
+
+  Mount: data-composition-id="house-source-card" data-composition-src="compositions/components/house-source-card/house-source-card.html"
+         style="position:absolute;left:0;top:18%;width:100%;height:36%"
+-->
+<html
+  lang="en"
+  data-composition-id="house-source-card"
+  data-composition-duration="4"
+  data-composition-variables='[
+    { "id": "publisher", "type": "string", "role": "content", "label": "Publisher", "default": "PUBLISHER" },
+    { "id": "date", "type": "string", "role": "content", "label": "Date", "default": "Date" },
+    { "id": "quote", "type": "string", "role": "content", "label": "Quote", "default": "Paste the exact sentence from the cited source here, then mark the phrase that proves the point." },
+    { "id": "highlight", "type": "string", "role": "content", "label": "Highlight", "default": "the phrase that proves the point" },
+    { "id": "url", "type": "string", "role": "content", "label": "URL", "default": "source.com" },
+    { "id": "mark_at", "type": "number", "role": "timing", "label": "Highlight at (s)", "default": 0.45 },
+    { "id": "theme", "type": "enum", "role": "style", "label": "Theme", "default": "light", "options": [{ "value": "light", "label": "Light" }, { "value": "dark", "label": "Dark" }] },
+    { "id": "accent", "type": "color", "role": "style", "label": "Accent", "default": "" }
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <title>House source card</title>
+  </head>
+  <body>
+    <template>
+      <div id="root" data-composition-id="house-source-card" data-duration="4" data-fps="30">
+        <style>
+          #root { position: absolute; inset: 0; overflow: hidden; container-type: size; pointer-events: none; }
+          .sc-clip { position: absolute; inset: 0; display: grid; place-items: center; }
+          .sc-card { width: 84cqw; border-radius: 2.4cqw; padding: 4.6cqw 5cqw; opacity: 0; box-shadow: var(--h-shadow, 0 2cqh 5cqh rgba(0,0,0,.28)); }
+          .sc-light { background: #FFFFFF; color: #14161A; }
+          .sc-dark { background: #1B1D22; color: #F2F2F0; }
+          .sc-meta { display: flex; justify-content: space-between; font-family: var(--h-font-text, Inter, sans-serif); font-weight: 700; font-size: max(28px, 2.6cqw); letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.6; margin-bottom: 2.4cqw; }
+          .sc-quote { font-family: var(--h-font-accent, 'Playfair Display', Georgia, serif); font-size: 5cqw; line-height: 1.22; }
+          .sc-mark { background-repeat: no-repeat; background-position: 0 88%; background-size: 0% 42%; padding: 0 0.2cqw; }
+          .sc-url { margin-top: 2.6cqw; font-family: var(--h-font-mono, 'JetBrains Mono', monospace); font-size: max(28px, 2.6cqw); opacity: 0.5; }
+        </style>
+        <div id="house-source-card-clip" class="sc-clip clip" data-start="0" data-duration="4" data-track-index="0">
+          <div class="sc-card">
+            <div class="sc-meta"><span class="sc-pub"></span><span class="sc-date"></span></div>
+            <div class="sc-quote"><span class="sc-quote-inner"></span></div>
+            <div class="sc-url"></div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+        <script>
+          (function () {
+            "use strict";
+            var root = document.getElementById("root");
+            var card = root.querySelector(".sc-card"), q = root.querySelector(".sc-quote-inner");
+            var v = window.__hyperframes && window.__hyperframes.getVariables ? window.__hyperframes.getVariables() : {};
+            var str = function (x, d) { return x == null ? d : String(x); };
+            var quote = str(v.quote, "Paste the exact sentence from the cited source here, then mark the phrase that proves the point.");
+            var hi = str(v.highlight, "the phrase that proves the point");
+            var css = getComputedStyle(document.documentElement);
+            var accent = v.accent || css.getPropertyValue("--h-accent").trim() || "#C5A759";
+            card.classList.add(v.theme === "dark" ? "sc-dark" : "sc-light");
+            root.querySelector(".sc-pub").textContent = str(v.publisher, "PUBLISHER");
+            root.querySelector(".sc-date").textContent = str(v.date, "Date");
+            var url = str(v.url, "source.com");
+            root.querySelector(".sc-url").textContent = url;
+            if (!url) root.querySelector(".sc-url").style.display = "none";
+            // The mark is one inline span; its background slices across wrapped lines, so the sweep reads line by line.
+            var mark = null, i = hi ? quote.indexOf(hi) : -1;
+            if (i >= 0) {
+              q.appendChild(document.createTextNode(quote.slice(0, i)));
+              mark = document.createElement("span"); mark.className = "sc-mark"; mark.textContent = hi;
+              var tint = "color-mix(in srgb, " + accent + " 45%, transparent)";
+              mark.style.backgroundImage = "linear-gradient(" + tint + ", " + tint + ")";
+              q.appendChild(mark);
+              q.appendChild(document.createTextNode(quote.slice(i + hi.length)));
+            } else q.textContent = quote;
+
+            var F = 1 / 30, D = Math.max(1, parseFloat(root.dataset.duration || "4"));
+            var markAt = Math.max(0, Number(v.mark_at) || 0.45);
+            var tl = gsap.timeline({ paused: true });
+            tl.fromTo(card, { opacity: 0, y: "3cqh" }, { opacity: 1, y: 0, duration: 6 * F, ease: "expo.out" }, 0);
+            if (mark) tl.fromTo(mark, { backgroundSize: "0% 42%" }, { backgroundSize: "100% 42%", duration: 10 * F, ease: "power2.out" }, 6 * F + markAt);
+            tl.to(card, { opacity: 0, y: "-2cqh", duration: 4 * F, ease: "power3.in" }, Math.max(6 * F + markAt + 0.5, D - 4 * F));
+            tl.seek(0);
+            window.__timelines = window.__timelines || {};
+            window.__timelines["house-source-card"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

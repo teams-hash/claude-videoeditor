@@ -1,0 +1,19 @@
+{
+  "name": "dnms-video-editing-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DNMS Video Editing System: Claude Code skills, agents and a local FFmpeg/HyperFrames toolkit that edit whole videos",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node tools/setup/setup.mjs",
+    "check": "node tools/setup/setup.mjs --check",
+    "studio": "node tools/studio/studio.mjs",
+    "lint": "node tools/ci/lint.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teams-hash/claude-videoeditor.git"
+  }
+}

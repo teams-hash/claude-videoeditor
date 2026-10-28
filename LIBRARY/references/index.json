@@ -1,0 +1,70 @@
+{
+ "references": [
+  {
+   "id": "732fe8349ea1a0b2",
+   "slug": "r1-abdllhisn",
+   "file": "REFERENCES/abdllhisn_1792049209_4008321603531499985_7935099375.mp4",
+   "duration": 24.31,
+   "scanned": null,
+   "scan": null,
+   "breakdown": null,
+   "notes": "House reference R1; analysed when the my-editing-style skill was built",
+   "house": ".claude/skills/my-editing-style/references/reference-reels.md (R1)"
+  },
+  {
+   "id": "8ef2ec30d1b7e788",
+   "slug": "r2-anwarbouilouta",
+   "file": "REFERENCES/anwarbouilouta_1792586201_4012826131084731792_75428212128.mp4",
+   "duration": 38.95,
+   "scanned": null,
+   "scan": null,
+   "breakdown": null,
+   "notes": "House reference R2; analysed when the my-editing-style skill was built",
+   "house": ".claude/skills/my-editing-style/references/reference-reels.md (R2)"
+  },
+  {
+   "id": "2e24c499f4d0f77c",
+   "slug": "r3-editavisuals",
+   "file": "REFERENCES/edita.visuals_1790776926_3997648180777005618_10155417187.mp4",
+   "duration": 22.64,
+   "scanned": null,
+   "scan": null,
+   "breakdown": null,
+   "notes": "House reference R3; analysed when the my-editing-style skill was built",
+   "house": ".claude/skills/my-editing-style/references/reference-reels.md (R3)"
+  },
+  {
+   "id": "011e391308342168",
+   "slug": "r4-iamajene",
+   "file": "REFERENCES/iamajene_1792446803_4011654205015278031_1232283645.mp4",
+   "duration": 22.43,
+   "scanned": "2026-10-28",
+   "scan": "LIBRARY/references/r4-iamajene/scan.json",
+   "breakdown": "LIBRARY/references/r4-iamajene/breakdown.md",
+   "house": ".claude/skills/my-editing-style/references/reference-reels.md (R4)",
+   "notes": "House reference R4; analysed when the my-editing-style skill was built"
+  },
+  {
+   "id": "4d04667fec202000",
+   "slug": "r5-justynai",
+   "file": "REFERENCES/justyn.ai_1791643169_4004914283111237424_76155536083.mp4",
+   "duration": 54.12,
+   "scanned": null,
+   "scan": null,
+   "breakdown": null,
+   "notes": "House reference R5; analysed when the my-editing-style skill was built",
+   "house": ".claude/skills/my-editing-style/references/reference-reels.md (R5)"
+  },
+  {
+   "id": "76c1a8af813690a5",
+   "slug": "r6-samdespomarketing",
+   "file": "REFERENCES/samdespomarketing_1792527590_4012333819125888349_52768084349.mp4",
+   "duration": 83.73,
+   "scanned": null,
+   "scan": null,
+   "breakdown": null,
+   "notes": "House reference R6; analysed when the my-editing-style skill was built",
+   "house": ".claude/skills/my-editing-style/references/reference-reels.md (R6)"
+  }
+ ]
+}
