@@ -15,8 +15,9 @@ automatically.
 1. Install the **Claude desktop app** from claude.com/download and sign in.
 2. Open the **Code** tab in any folder and paste:
 
-   > Install the video editing studio from https://github.com/teams-hash/claude-videoeditor into `C:\DNMS Studio`.
-   > Follow the "If you're Claude installing this for someone" section of its README.
+   > Install this: https://github.com/teams-hash/claude-videoeditor
+
+   (Claude follows [INSTALL-FOR-CLAUDE.md](INSTALL-FOR-CLAUDE.md) and installs it into `C:\DNMS Studio`.)
 
 3. Click **Allow** when Claude asks to run commands, and **Yes** on Windows permission pop-ups.
 4. When it's done, **open a new session in `C:\DNMS Studio`** (Code tab → choose the folder → Trust) and go to
