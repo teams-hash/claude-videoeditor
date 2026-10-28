@@ -6,9 +6,23 @@ automatically.
 ## Before you start
 
 - A **Claude Pro** (or Max) account.
-- A **GitHub** account (free, github.com/signup). Send your GitHub username to the studio owner, then accept the
-  invitation email from GitHub.
 - About 3 GB free disk, plus room for footage.
+- A **GitHub** account only if the repository is private (it's public today). In that case, send your GitHub
+  username to the studio owner and accept the invitation email from GitHub.
+
+## Shortcut: let Claude install it
+
+1. Install the **Claude desktop app** from claude.com/download and sign in.
+2. Open the **Code** tab in any folder and paste:
+
+   > Install the video editing studio from https://github.com/teams-hash/claude-videoeditor into `C:\DNMS Studio`.
+   > Follow the "If you're Claude installing this for someone" section of its README.
+
+3. Click **Allow** when Claude asks to run commands, and **Yes** on Windows permission pop-ups.
+4. When it's done, **open a new session in `C:\DNMS Studio`** (Code tab → choose the folder → Trust) and go to
+   [step 5](#5-your-first-edit). The session you installed from can't edit videos.
+
+The steps below do the same thing by hand.
 
 ## 1. Install the apps
 
